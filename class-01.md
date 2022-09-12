@@ -24,6 +24,19 @@ Strings can also be declared by using ***let***, which allows to declare variabl
   
 Numbers can also be assigned to a variable, only this time, it's not enclosed in quotes.
   let num = 3
+  
+  
+  
+## What is a Variable and why are they important in JavaScript?
+
+***Variables*** act like placeholders used to store values. Below is an example of declaring a variable:
+```
+let name = “Issa”;    -- declaring variable ***name*** and assigning it the String value ***Issa***
+let str;   -- declaring a variable ***str*** with a value ***undefined***, which can later have values
+```
+
+Variables can hold values ‘that have different data types’[^4].
+
 
 
 ## What is the Difference between the <article></article> and <section></setion> element tags?
@@ -33,18 +46,18 @@ The ***section tag***  allows user to create a section in the HTML document, whi
 
 ## What Elements does a “typical” website include?
 The HTML provides tags one can use to denote a section. Examples would be:
--	header - headear tag
--	Navigation bar - nav tag
--	Main content - main tag, which may also include subsections such as: (1) article tag, (2) section tag, (3) div tag
-- sidebar - aside tag, which is also placed mostly inside the <main></main>
-- footer - footer tag
+-	```<header></header>```
+-	```<nav></tag>```
+-	```<main></main>```, which may also include subsections such as: (1) ```<article></article>```, (2) ```<section></section>, (3) ```<div></div>```
+- ```<aside></aside>``` - sidebar, which is also placed mostly inside the <main></main>
+- ```<footer></footer>
 
 
 ## References:
 [^1]: [How CSS works] (https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps/How_CSS_works)
 [^2]: [HTML Images] (https://www.w3schools.com/html/html_images.asp)
 [^3]: [Difference between <article> tag and <section> tag] (https://www.geeksforgeeks.org/difference-between-article-tag-and-section-tag/#:~:text=The%20tag%20defines%20a,independent%2C%20self%2Dcontained%20content.)
-- 
+[^4]: [JavaScript Basics] (https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics)
 - 
 
 
