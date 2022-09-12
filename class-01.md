@@ -1,4 +1,5 @@
 # Reading 01
+
 ## Describe how HTML, CSS, and JS files are “parsed” in the browser.
 
 The browser loads the HTML and converts it into a Document Object Model or DOM. 
@@ -13,6 +14,16 @@ The <img></img> tag is used to embed an image into the web page; it links the im
 -	Src – specifies the image’s path
 -	Alt – an alternate text for the image
 
+
+## How do you create a String vs a Number in JavaScript?
+
+Strings in JavaScript can be written inside either the (1) single quotes(‘’), the (2) double quotes (“”), or the (3) backticks (``). The quotes style used must be the same on both sides. However, these three styles can be used throughout the HTML document as long as the beginning and ending of the style used are matching.
+
+Strings can also be declared by using ***let***, which allows to declare variables, such as:
+  let str = 'name'
+  
+Numbers can also be assigned to a variable, only this time, it's not enclosed in quotes.
+  let num = 3
 
 
 ## What is the Difference between the <article></article> and <section></setion> element tags?
