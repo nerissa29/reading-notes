@@ -1,4 +1,4 @@
-# Reading 01
+# Reading Notes 1
 
 ## Describe how HTML, CSS, and JS files are “parsed” in the browser.
 
