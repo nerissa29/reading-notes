@@ -10,7 +10,7 @@ It finds and works out the rules that need to be applied on nodes, .attaching th
 
 ## How can you find images to add to a Website?
 
-The <img></img> tag is used to embed an image into the web page; it links the images to the web page. The <img></img> tag creates as a placeholder for the referenced image. Two required attributes include:
+The img tag is used to embed an image into the web page; it links the images to the web page. The img tag creates as a placeholder for the referenced image. Two required attributes include:
 -	Src – specifies the image’s path
 -	Alt – an alternate text for the image
 
@@ -28,19 +28,19 @@ Numbers can also be assigned to a variable, only this time, it's not enclosed in
 
 ## What is the Difference between the <article></article> and <section></setion> element tags?
 
-The ***<section></section>*** tag creates and defines a section in the HTML document, while the ***<article></article>*** tag creates and defines a self-contained content.
+The ***section tag***  creates and defines a section in the HTML document, while the ***article tag*** creates and defines a self-contained content.
 
 
 ## What Elements does a “typical” website include?
 The HTML provides tags one can use to denote a section. Examples would be:
--	Header - <header></header>
--	Navigation bar - <nav></nav>
--	Main content - <main></main>, which may also include subsections such as:
-  - <article></article>
-  - <section></section>
-  - <div></div>
-- sidebar - <aside></aside> which is also placed mostly inside the <main></main>
-- footer - <footer></footer>
+-	header - headear tag
+-	Navigation bar - nav tag
+-	Main content - main tag, which may also include subsections such as:
+  - article tag
+  - section tag
+  - div tag
+- sidebar - aside tag, which is also placed mostly inside the <main></main>
+- footer - footer tag
 
 
 
