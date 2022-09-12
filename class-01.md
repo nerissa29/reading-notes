@@ -35,10 +35,7 @@ The ***section tag***  creates and defines a section in the HTML document, while
 The HTML provides tags one can use to denote a section. Examples would be:
 -	header - headear tag
 -	Navigation bar - nav tag
--	Main content - main tag, which may also include subsections such as:
-  - article tag
-  - section tag
-  - div tag
+-	Main content - main tag, which may also include subsections such as: (1) article tag, (2) section tag, (3) div tag
 - sidebar - aside tag, which is also placed mostly inside the <main></main>
 - footer - footer tag
 
