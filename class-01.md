@@ -103,6 +103,9 @@ The HTML provides tags one can use to denote a section. Examples would be:
 The ***utf-8*** is a universal character set that allows the web page to be able to handle any language displayed[^6]. It has a great impact on the search engines and SEO as it tells the page's title to the search engine 
 
 
+## How is the meta HTML tag used when specifying metadata?
+
+The ***meta tag*** defines the metadata (- data about data) about the HTML document.  
 
 
 [^1]: How CSS works (https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps/How_CSS_works)
