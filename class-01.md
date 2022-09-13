@@ -105,19 +105,34 @@ The ***utf-8*** is a universal character set that allows the web page to be able
 
 ## How is the meta HTML tag used when specifying metadata?
 
-The ***meta tag*** defines the metadata - 'data that describes data' about the HTML document. It represents metadata that cannot be represesnted by either ***base, script, style, and many more***[^6]
+The ***meta tag*** defines the metadata - 'data that describes data' about the HTML document. It represents metadata that cannot be represented by either ***base, script, style, and many more***[^6]
 
-```
-'The type of metadata provided by the <meta> element can be one of the following'[^7]:
 
-- ***name*** attribute - provides the type of data applied to the web page. The *name* and it's *content* are used together for easy and right searches. The *name* attribute gives metadata a name, while the *content* attribute holds the value .
+'The type of metadata provided by the <meta> element can be one of the following[^7]:
+
+- ***name*** attribute - provides the type of data applied to the web page. The *name* and it's *content* are used together for easy and right searches. The *name* attribute gives metadata a name, while the *content* attribute holds the value.
 
 - ***http-equiv*** attribute -once set, provides HTML header for the *content* attribute's value
 
-- ***charset*** attribute - 
+- ***charset*** attribute - encodes the character; UTF-8 is advised as it covers most characters and symbols.
+
+- ***itemprop*** attribute - it provides user-defined metadata and must not be set with the same *meta* where *name, http-equiv, or charset* exists.
 
 
-```
+
+# Miscellaneous
+
+## What is the first step to designing a Website?
+
+Aside from the need-to-know how to build a website, having a goal is important, and also is the very first step. Once a goal is established, the next step will be defining the scope of the project, as well as designing the web page. Creating its content is the next development; the final step will be launching the website.
+       
+
+## What is the most important question to answer when designing a Website?
+
+These three questions are important in designing a website[^8]:
+-
+
+
 
 
 [^1]: How CSS works (https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps/How_CSS_works)
@@ -127,6 +142,7 @@ The ***meta tag*** defines the metadata - 'data that describes data' about the H
 [^5]: Getting Started with HTML (https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Getting_started)
 [^6]: What's in the head? Metadata in HTML (https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/The_head_metadata_in_HTML)
 [^7]: The metadata element (https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta)
+[^8]: How do I start to design my website? (https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Thinking_before_coding)
 
 
 
