@@ -69,12 +69,13 @@ The ***src*** and the ***alt*** serves as the <img> tag's attributes. It provide
 
 <h1> Code 201 </h1>
 
-The opening tag <h1> and the closing tag </h1> is considered an element, while the text 'Code 201' is considered the content
-
 ```
-- ***opening tag*** - is the name of the element, 'p for paragraph'[^5].
-- ***content*** - is the element's content[^5].
-- ***closing tag*** - it marks the ending, it is important to include closing tags to prevent error[^5]
+
+The opening tag <h1> and the closing tag </h1> is considered an element, while the text 'Code 201' is considered the content'[^4].
+
+- ***opening tag*** - is the name of the element, 'p for paragraph.
+- ***content*** - is the element's content.
+- ***closing tag*** - it marks the ending, it is important to include closing tags to prevent error
 
 
         
