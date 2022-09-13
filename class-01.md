@@ -55,9 +55,9 @@ The ***section tag***  allows user to create a section in the HTML document, whi
 The HTML provides tags one can use to denote a section. Examples would be:
 -	```<header></header>```
 -	```<nav></tag>```
--	```<main></main>```, which may also include subsections such as: (1) ```<article></article>```, (2) ```<section></section>, (3) ```<div></div>```
+-	```<main></main>```, which may also include subsections such as: (1) ```<article></article>```, (2) ```<section></section>```, (3) ```<div></div>```
 - ```<aside></aside>``` - sidebar, which is also placed mostly inside the <main></main>
-- ```<footer></footer>
+- ```<footer></footer>```
 
 
 
@@ -67,7 +67,7 @@ The HTML provides tags one can use to denote a section. Examples would be:
 
 The 'HTML (HyperText MarkUp Language) is a markup language that tells web browsers how to structure the web pages you visit'[^5]. It consists of elements used to wrap or enclosed 'different parts of content to make it appear or act in a certain way'[^5]. 
 
-The attributes hold additional pieces of information placed inside the opening tag. In the example below:
+On the other hand, the attributes hold additional pieces of information placed inside the opening tag. In the example below:
 
 ``` 
 
@@ -75,18 +75,29 @@ The attributes hold additional pieces of information placed inside the opening t
 
 ```
 
-The ***src*** and the ***alt*** serves as the <img> tag's attributes. It provides more details regarding the HTML element.
+The ***src*** and the ***alt*** serves as the <img> tag's attributes. It provides more details regarding the HTML element <img>.
+
+
+## Describe the Anatomy of an HTMl element.
+
+``` 
+
+<h1> Code 201 </h1>
+
+```
+
+<!-- The opening tag <h1> and the closing tag </h1> is considered an element, while the text 'Code 201' is considered the content -->
 
         
 
 
 
 
-## References:
+
 [^1]: How CSS works (https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps/How_CSS_works)
 [^2]: HTML Images (https://www.w3schools.com/html/html_images.asp)
-[^3]: [Difference between <article> tag and <section> tag] (https://www.geeksforgeeks.org/difference-between-article-tag-and-section-tag/#:~:text=The%20tag%20defines%20a,independent%2C%20self%2Dcontained%20content.)
-[^4]: [JavaScript Basics] (https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics)
+[^3]: Difference between article tag and section tag (https://www.geeksforgeeks.org/difference-between-article-tag-and-section-tag/#:~:text=The%20tag%20defines%20a,independent%2C%20self%2Dcontained%20content.)
+[^4]: JavaScript Basics (https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics)
 [^5] Getting Started with HTML (https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Getting_started)
  
 
