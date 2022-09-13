@@ -137,14 +137,14 @@ These three questions are important in designing a website:
 
 
 
-[^1]: How CSS works [See here](https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps/How_CSS_works)
-[^2]: HTML Images (https://www.w3schools.com/html/html_images.asp)
-[^3]: Difference between article tag and section tag (https://www.geeksforgeeks.org/difference-between-article-tag-and-section-tag/#:~:text=The%20tag%20defines%20a,independent%2C%20self%2Dcontained%20content.)
-[^4]: JavaScript Basics (https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics)
-[^5]: Getting Started with HTML (https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Getting_started)
-[^6]: What's in the head? Metadata in HTML (https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/The_head_metadata_in_HTML)
-[^7]: The metadata element (https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta)
-[^8]: How do I start to design my website? (https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Thinking_before_coding)
+[^1]: How CSS works [Click here](https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps/How_CSS_works)
+[^2]: HTML Images [Click here](https://www.w3schools.com/html/html_images.asp)
+[^3]: Difference between article tag and section tag [Click here](https://www.geeksforgeeks.org/difference-between-article-tag-and-section-tag/#:~:text=The%20tag%20defines%20a,independent%2C%20self%2Dcontained%20content.)
+[^4]: JavaScript Basics [Click here](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics)
+[^5]: Getting Started with HTML [Click here](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Getting_started)
+[^6]: What's in the head? Metadata in HTML [Click here](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/The_head_metadata_in_HTML)
+[^7]: The metadata element [Click here](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta)
+[^8]: [How do I start to design my website?](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Thinking_before_coding)
 
 
 
