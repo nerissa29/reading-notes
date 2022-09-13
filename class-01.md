@@ -105,8 +105,15 @@ The ***utf-8*** is a universal character set that allows the web page to be able
 
 ## How is the meta HTML tag used when specifying metadata?
 
-The ***meta tag*** defines the metadata (- data about data) about the HTML document.  
+The ***meta tag*** defines the metadata - 'data that describes data' about the HTML document. It represents metadata that cannot be represesnted by either ***base, script, style, and many more***[^6]
 
+```
+The type of metadata provided by the <meta> element can be one of the following:
+
+If the name attribute is set, the <meta> element provides document-level metadata, applying to the whole page.
+If the http-equiv attribute is set, the <meta> element is a pragma directive, providing information equivalent to what can be given by a similarly-named HTTP header.
+If the charset attribute is set, the <meta> element is a charset declaration, giving the character encoding in which the document is encoded.
+If the itemprop attribute is set, the <meta> element provides user-defined metadata.
 
 [^1]: How CSS works (https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps/How_CSS_works)
 [^2]: HTML Images (https://www.w3schools.com/html/html_images.asp)
