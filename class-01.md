@@ -129,13 +129,15 @@ Aside from the need-to-know how to build a website, having a goal is important, 
 
 ## What is the most important question to answer when designing a Website?
 
-These three questions are important in designing a website[^8]:
--
+These three questions are important in designing a website:
+- 'What exactly do I want to accomplish[^8]?'
+- 'How will a website help me reach my goals[^8]?'
+- 'What needs to be done, and in what order, to reach my goals?[^8]'
 
 
 
 
-[^1]: How CSS works (https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps/How_CSS_works)
+[^1]: How CSS works [See here](https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps/How_CSS_works)
 [^2]: HTML Images (https://www.w3schools.com/html/html_images.asp)
 [^3]: Difference between article tag and section tag (https://www.geeksforgeeks.org/difference-between-article-tag-and-section-tag/#:~:text=The%20tag%20defines%20a,independent%2C%20self%2Dcontained%20content.)
 [^4]: JavaScript Basics (https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics)
