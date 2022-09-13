@@ -31,11 +31,18 @@ Numbers can also be assigned to a variable, only this time, it's not enclosed in
 
 ***Variables*** act like placeholders used to store values. Below is an example of declaring a variable:
 ```
-let name = “Issa”;    -- declaring variable ***name*** and assigning it the String value ***Issa***
-let str;   -- declaring a variable ***str*** with a value ***undefined***, which can later have values
+let name = “Issa”;    
+let str;   
 ```
 
-Variables can hold values ‘that have different data types’[^4].
+The 1st example declares variable ***name*** and assigns it the String value ***Issa***. 
+The 2nd example declares a variable ***str*** with a value ***undefined***, which can later have values. 
+In addition, variables can hold values ‘that have different data types, such as[^4]:
+- String
+- Number
+- Boolean
+- Object
+- Array
 
 
 
@@ -53,12 +60,35 @@ The HTML provides tags one can use to denote a section. Examples would be:
 - ```<footer></footer>
 
 
+
+# Introduction to HTML
+
+## What is an HTML attribute?
+
+The 'HTML (HyperText MarkUp Language) is a markup language that tells web browsers how to structure the web pages you visit'[^5]. It consists of elements used to wrap or enclosed 'different parts of content to make it appear or act in a certain way'[^5]. 
+
+The attributes hold additional pieces of information placed inside the opening tag. In the example below:
+
+``` 
+
+<img src = "flower.jpg" alt = "A State Flower."> 
+
+```
+
+The ***src*** and the ***alt*** serves as the <img> tag's attributes. It provides more details regarding the HTML element.
+
+        
+
+
+
+
 ## References:
-[^1]: [How CSS works] (https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps/How_CSS_works)
-[^2]: [HTML Images] (https://www.w3schools.com/html/html_images.asp)
+[^1]: How CSS works (https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps/How_CSS_works)
+[^2]: HTML Images (https://www.w3schools.com/html/html_images.asp)
 [^3]: [Difference between <article> tag and <section> tag] (https://www.geeksforgeeks.org/difference-between-article-tag-and-section-tag/#:~:text=The%20tag%20defines%20a,independent%2C%20self%2Dcontained%20content.)
 [^4]: [JavaScript Basics] (https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics)
-- 
+[^5] Getting Started with HTML (https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Getting_started)
+ 
 
 
 
