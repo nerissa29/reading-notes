@@ -123,6 +123,8 @@ The ***meta tag*** defines the metadata - 'data that describes data' about the H
 
 # Miscellaneous
 
+## How to start to design a Website.
+
 ## What is the first step to designing a Website?
 
 Aside from the need-to-know how to build a website, having a goal is important, and also is the very first step. Once a goal is established, the next step will be defining the scope of the project, as well as designing the web page. Creating its content is the next development; the final step will be launching the website.
@@ -130,22 +132,47 @@ Aside from the need-to-know how to build a website, having a goal is important, 
 
 ## What is the most important question to answer when designing a Website?
 
-These three questions are important in designing a website:
-- 'What exactly do I want to accomplish[^8]?'
-- 'How will a website help me reach my goals[^8]?'
-- 'What needs to be done, and in what order, to reach my goals?[^8]'
+These three questions are important in designing a website[^8]:
+- 'What exactly do I want to accomplish?'
+- 'How will a website help me reach my goals?'
+- 'What needs to be done, and in what order, to reach my goals?'
+
+
+## Semantics
+
+## Why should you use an h1 element over a span element to display a top level heading?t
+
+The h1 element helps and tell the search engines what the web page is about. It helps it understand the page[^9]. In headings, H1 tags are the most important as it gives you a hint regarding the contents of the page. Span element, on the other hand, is an inline container that can be used inside the p tags. It is mostly used for styling purposes, mostly by adding a class or id attributes. 
+
+An example where a span tag can be used is to group elements, which can be a number (serves as the counter), where the values can be changed when id or class attributes are called or used in a function in JavaScript.
+
+
+## What are the benefits of using semantic tags in our HTML?
+
+Semantics tag in HTML helps define and structure the layout and the different sections that occur in the web page. It allows for easy reading and access and helps search engines interpret its content[^9].
+
+ 
+## What is JavaScript?
+
+## Describe 2 things that *require* JavaScript in the Browser?
 
 
 
 
-[^1]: How CSS works [Click here](https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps/How_CSS_works)
-[^2]: HTML Images [Click here](https://www.w3schools.com/html/html_images.asp)
-[^3]: Difference between article tag and section tag [Click here](https://www.geeksforgeeks.org/difference-between-article-tag-and-section-tag/#:~:text=The%20tag%20defines%20a,independent%2C%20self%2Dcontained%20content.)
-[^4]: JavaScript Basics [Click here](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics)
-[^5]: Getting Started with HTML [Click here](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Getting_started)
-[^6]: What's in the head? Metadata in HTML [Click here](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/The_head_metadata_in_HTML)
-[^7]: The metadata element [Click here](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta)
+## How can you add JavaScript to an HTML document?
+
+
+
+
+[^1]: [How CSS works](https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps/How_CSS_works)
+[^2]: [HTML Images](https://www.w3schools.com/html/html_images.asp)
+[^3]: [Difference between article tag and section tag](https://www.geeksforgeeks.org/difference-between-article-tag-and-section-tag/#:~:text=The%20tag%20defines%20a,independent%2C%20self%2Dcontained%20content.)
+[^4]: [JavaScript Basics](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics)
+[^5]: [Getting Started with HTML](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Getting_started)
+[^6]: [What's in the head? Metadata in HTML](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/The_head_metadata_in_HTML)
+[^7]: [The metadata element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta)
 [^8]: [How do I start to design my website?](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Thinking_before_coding)
+[^9]: [Semantics](https://developer.mozilla.org/en-US/docs/Glossary/Semantics)
 
 
 
