@@ -46,21 +46,6 @@ In addition, variables can hold values ‘that have different data types, such a
 
 
 
-## What is the Difference between the <article></article> and <section></setion> element tags?
-
-The ***section tag***  allows user to create a section in the HTML document, while the ***article tag*** allows the user to create self-contained content. The ***section tag*** can divide or split the HTML page into sections. The ***article tag*** can be placed inside the ‘’’<main></main>’’’ or ‘’’<section></section>’’’; it works independently and does not require another context[^3].
-
-
-## What Elements does a “typical” website include?
-The HTML provides tags one can use to denote a section. Examples would be:
--	```<header></header>```
--	```<nav></tag>```
--	```<main></main>```, which may also include subsections such as: (1) ```<article></article>```, (2) ```<section></section>```, (3) ```<div></div>```
-- ```<aside></aside>``` - sidebar, which is also placed mostly inside the <main></main>
-- ```<footer></footer>```
-
-
-
 # Introduction to HTML
 
 ## What is an HTML attribute?
@@ -84,12 +69,38 @@ The ***src*** and the ***alt*** serves as the <img> tag's attributes. It provide
 
 <h1> Code 201 </h1>
 
-```
+The opening tag <h1> and the closing tag </h1> is considered an element, while the text 'Code 201' is considered the content
 
-<!-- The opening tag <h1> and the closing tag </h1> is considered an element, while the text 'Code 201' is considered the content -->
+```
+- ***opening tag*** - is the name of the element, 'p for paragraph'[^5].
+- ***content*** - is the element's content[^5].
+- ***closing tag*** - it marks the ending, it is important to include closing tags to prevent error[^5]
+
 
         
+## What is the Difference between the article and section element tags?
 
+The ***section tag***  allows user to create a section in the HTML document, while the ***article tag*** allows the user to create self-contained content. The ***section tag*** can divide or split the HTML page into sections. The ***article tag*** can be placed inside the ‘’’<main></main>’’’ or ‘’’<section></section>’’’; it works independently and does not require another context[^3].
+
+
+## What Elements does a “typical” website include?
+The HTML provides tags one can use to denote a section. Examples would be:
+-	```<header></header>```
+-	```<nav></tag>```
+-	```<main></main>```, which may also include subsections such as: (1) ```<article></article>```, (2) ```<section></section>```, (3) ```<div></div>```
+- ```<aside></aside>``` - sidebar, which is also placed mostly inside the <main></main>
+- ```<footer></footer>```
+
+
+## How does metadata influence Search Engine Optimization?
+
+'Metadata is data that describes data, and HTML has an "official" way of adding metadata to a document’ — the ***meta*** element [^6]. Since metadata is written in a language that search engines understand, it, therefore, helps the search engines understand the content of the webpage.
+
+```
+<meta charset = "utf-8">
+
+```
+The ***utf-8*** is a universal character set that allows the web page to be able to handle any language displayed[^6]. It has a great impact on the search engines and SEO as it tells the page's title to the search engine 
 
 
 
@@ -98,7 +109,8 @@ The ***src*** and the ***alt*** serves as the <img> tag's attributes. It provide
 [^2]: HTML Images (https://www.w3schools.com/html/html_images.asp)
 [^3]: Difference between article tag and section tag (https://www.geeksforgeeks.org/difference-between-article-tag-and-section-tag/#:~:text=The%20tag%20defines%20a,independent%2C%20self%2Dcontained%20content.)
 [^4]: JavaScript Basics (https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics)
-[^5] Getting Started with HTML (https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Getting_started)
+[^5]: Getting Started with HTML (https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Getting_started)
+[^6]: What's in the head? Metadata in HTML (https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/The_head_metadata_in_HTML)
  
 
 
