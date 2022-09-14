@@ -43,10 +43,10 @@ A good example would be the following, adapted from MDN web docs[^2]:
 
 ```
 
--Milk
--Cheese
---Blue cheese
---Feta
+- Milk
+- Cheese
+  -Blue cheese
+  -Feta
 
 
 ## References:
