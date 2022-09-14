@@ -26,12 +26,31 @@ A good example would be the folloowing, adapted from MDN web docs[^1]:
 4. Fill muffin tray 3/4 full.
 5. Bake for 20 minutes.
 
-Unordered list on the other hand, creates a bulleted lists. It creates list of items in no order. Unordered list can be used in group of items in which the order is not required. It can be used in creating grocery lists, or to-do list. A good example would be the following, adapted from MDN web docs[^2]:
+Unordered list on the other hand, creates a bulleted lists. It creates list of items in no order. Unordered list can be used in group of items in which the order is not required. It can be used in creating grocery lists, or to-do list. 
 
+A good example would be the following, adapted from MDN web docs[^2]:
+
+``` 
+<ul>
+    <li>Milk</li>
+    <li>Cheese
+        <ul>
+            <li>Blue cheese</li>
+            <li>Feta</li>
+        </ul>
+    </li>
+</ul>
+
+```
+
+-Milk
+-Cheese
+--Blue cheese
+--Feta
 
 
 ## References:
 
-[^1]: [<ol>: The Ordered List element](<ol>: The Ordered List element)
+[^1]: [<ol>: The Ordered List element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ol)
 [^2]: [<ul>: The Unordered List element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ul)
 
