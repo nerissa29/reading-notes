@@ -87,10 +87,10 @@ A good example would be the following, adapted from MDN web docs[^1]:
 <ul>
   <li>Things to bring:
     <ul>
-      <li>In another bowl, mix eggs, milk, and oil.</li>
-      <li>Stir both mixtures together.</li>
-      <li>Fill muffin tray 3/4 full.</li>
-      <li>Bake for 20 minutes.</li>
+      <li>Towels</li>
+      <li>Change of clothes</li>
+      <li>Snacks</li>
+      <li>Drinks</li>
     </ul>
   </li>
 </ul>
