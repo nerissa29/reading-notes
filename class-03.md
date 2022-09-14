@@ -100,6 +100,48 @@ A good example would be the following, adapted from MDN web docs[^1]:
 
 ## Describe two ways you can change the numbers on list items provided by an ordered list?
 
+- Nesting list of items - the example below is adapted from MDN web docs[^1]
+
+```
+<ol>
+  <li>first item</li>
+  <li>second item  <!-- closing </li> tag not here! -->
+    <ol>
+      <li>second item first subitem</li>
+      <li>second item second subitem</li>
+      <li>second item third subitem</li>
+    </ol>
+  </li>            <!-- Here's the closing </li> tag -->
+  <li>third item</li>
+</ol>
+```
+
+- Another way to change the numbers on list would be by using the ***type attribute*** and is written like[^1]:
+
+```
+
+<ol type="A">
+  <li>Introduction</li>
+  <li>Contents</li>
+  <li>Conclusion</li>
+</ol>
+
+```
+
+Results would be:
+A. Introduction
+B. Contents
+C. Conclusion
+
+Other ***type attributes*** include:
+- i - lowercase Roman numerals
+- I - uppercase Roman numerals
+- 1 - numbers
+- a - lowercase letters
+- A - uppercase letters
+    
+
+
 
 
 ## References:
