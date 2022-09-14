@@ -1,4 +1,4 @@
-# Readings: HTML Lists, Control Flow with JS, and the CSS Box Model
+## Readings: HTML Lists, Control Flow with JS, and the CSS Box Model
 
 ## Learn HTML: Ordered and unordered list
 
