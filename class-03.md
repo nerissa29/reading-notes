@@ -104,7 +104,7 @@ A good example would be the following, adapted from MDN web docs[^1]:
 
 ## References:
 
-[^1]: [<ol>: The Ordered List element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ol)
-[^2]: [<ul>: The Unordered List element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ul)
+[^1]: [The Ordered List element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ol)
+[^2]: [The Unordered List element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ul)
 [^3]: [MDN: list-style-type](https://developer.mozilla.org/en-US/docs/Web/CSS/list-style-type)
  
