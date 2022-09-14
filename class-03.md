@@ -1,32 +1,10 @@
-# Readings: HTML Lists, Control Flow with JS, and the CSS Box MOdel
+# Readings: HTML Lists, Control Flow with JS, and the CSS Box Model
 
 ## Learn HTML: Ordered and unordered list
 
 ## When should you use an unordered list in your HTML document?
 
-*Ordered list* is useful when describing steps, making it easier for the user to follow through. It ceates a list in a specific, with numerical or alphabetical order. Ordered list is good to use when creating a recipe, footnotes, or steps in building something. 
-
-A good example would be the folloowing, adapted from MDN web docs[^1]:
-
-``` 
-
-<ol>
-  <li>Mix flour, baking powder, sugar, and salt.</li>
-  <li>In another bowl, mix eggs, milk, and oil.</li>
-  <li>Stir both mixtures together.</li>
-  <li>Fill muffin tray 3/4 full.</li>
-  <li>Bake for 20 minutes.</li>
-</ol>
-
-```
-
-1. Mix flour, baking powder, sugar, and salt.
-2. In another bowl, mix eggs, milk, and oil.
-3. Stir both mixtures together.
-4. Fill muffin tray 3/4 full.
-5. Bake for 20 minutes.
-
-*Unordered list* on the other hand, creates a bulleted lists. It creates list of items in no order. Unordered list can be used in group of items in which the order is not required. It can be used in creating grocery lists, or to-do list. 
+*Unordered list* creates bulleted lists. It creates a list of items in no order. An unordered list can be used in a group of items in which the order is not required. It can be used in creating grocery lists or to-do lists. 
 
 A good example would be the following, adapted from MDN web docs[^2]:
 
@@ -49,16 +27,79 @@ A good example would be the following, adapted from MDN web docs[^2]:
   - Feta
   
 
+
 ## How do you change the bullet style of unordered list items?
 
-The bullet style can be changed through CSS styling. The CSS property *list-style-type* allows the list items to have a different bullet style other than disc. The *list-style-type* property varies from the following:[^3]:
+The bullet style can be changed through CSS styling. The CSS property *list-style-type* allows the list items to have a different bullet style other than disc. The *list-style-type* property varies from the following: [^3]:
 
 - list-style-type: space-counter;
 - list-style-type: disc;
 - list-style-type: circle;
 - list-style-type: "\1F44D"; // thumbs up sign
 
-The bullet style of unordered list can also be change by creating nested lists of items.
+The bullet style of an unordered list can also be changed by creating nested lists of items. A good example would be:
+
+***Nesting lists of items***
+
+```
+<ul>
+    <li>Eggs</li>
+    <li>Yogurt</li>
+    <li>Bread
+        <ul>
+            <li>Spanish bread</li>
+            <li>Loaf Bread</li>
+        </ul>
+    </li>
+</ul>
+```
+
+
+## When should you use an ordered list vs an unordered list in your HTML document?
+
+*Ordered list* is useful when describing steps, making it easier for the user to follow through. It creates a list in a specific, numerical or alphabetical order. The ordered list is good for creating a recipe, footnotes, or steps in building something. 
+
+A good example would be the following, adapted from MDN web docs[^1]:
+
+``` 
+
+<ol>
+  <li>Mix flour, baking powder, sugar, and salt.</li>
+  <li>In another bowl, mix eggs, milk, and oil.</li>
+  <li>Stir both mixtures together.</li>
+  <li>Fill muffin tray 3/4 full.</li>
+  <li>Bake for 20 minutes.</li>
+</ol>
+
+```
+
+1. Mix flour, baking powder, sugar, and salt.
+2. In another bowl, mix eggs, milk, and oil.
+3. Stir both mixtures together.
+4. Fill muffin tray 3/4 full.
+5. Bake for 20 minutes.
+
+
+*Unordered list* is useful when the list of items is not necessarily needed in numerical or alphabetical order. It can be used to emphasize important key points or information, making it easier for the user to read. It is best used when the order is not required or doesn't matter.
+
+``` 
+
+<ul>
+  <li>Things to bring:
+    <ul>
+      <li>In another bowl, mix eggs, milk, and oil.</li>
+      <li>Stir both mixtures together.</li>
+      <li>Fill muffin tray 3/4 full.</li>
+      <li>Bake for 20 minutes.</li>
+    </ul>
+  </li>
+</ul>
+
+```
+
+
+## Describe two ways you can change the numbers on list items provided by an ordered list?
+
 
 
 ## References:
@@ -66,4 +107,4 @@ The bullet style of unordered list can also be change by creating nested lists o
 [^1]: [<ol>: The Ordered List element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ol)
 [^2]: [<ul>: The Unordered List element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ul)
 [^3]: [MDN: list-style-type](https://developer.mozilla.org/en-US/docs/Web/CSS/list-style-type)
-
+ 
