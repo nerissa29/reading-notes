@@ -23,7 +23,7 @@
 Normal flow is the display of inline or block elements before making any changes to the layout. Inline elements 'display inline direction', while block elements 'display one after the other'[^3].
 
 ## What are a few differences between block-level and inline elements?
-___ positioning is the default for every
+  
   
   
 [^1]: [Creating hyperlinks](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Creating_hyperlinks)
