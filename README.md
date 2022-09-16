@@ -7,7 +7,7 @@ Hi Everyone, my name is ***Nerissa Leynes***; I am **nervous _and_ excited** at 
 - [Reading Notes 2](nerissa29.github.io/reading2)
 - [Reading Notes 3](class-03.md)
 - [Reading Notes 4](class-04.md)
-- [Reading Notes 5](nerissa29.github.io/reading5)
+- [Reading Notes 5](class-05.md)
 - [Reading Notes 6](nerissa29.github.io/reading6)
 - [Reading Notes 7](nerissa29.github.io/reading7)
 - [Reading Notes 8](nerissa29.github.io/reading8)
