@@ -1,8 +1,8 @@
 ## Reading Notes 5
 
-###### Readings: Images, Color, Text
+#### Readings: Images, Color, Text
 
-###### HTML Media
+##### HTML Media
 
 ###### What is a real world use case for the alt attribute being used in a website?
 
@@ -41,6 +41,39 @@ When adding captions, for easy reading, it s best to enclose the image to *figur
 </figure>
 ```
 
+###### Provide an example of when the figure element would be useful in an HTML document.
+
+The *img* element can be enclosed inside the *div* element. However, if caption is needed, caption won't be semantically link to the image, due to *div* doesn't have a *figcaption* elements. A *p tag* can be used to wrap the text an serves as a caption, but it will not be semantically link to the image. On the other hand, using the *figure* element and *figcaption* element solves the issue. These two together are created to provide the caption semantically link to the image, see the difference below, adapted from MDN wed docs[^1]:
+
+***div element***
+```
+<div class="figure">
+  <img
+    src="images/dinosaur.jpg"
+    alt="The head and torso of a dinosaur skeleton;
+            it has a large head with long sharp teeth"
+    width="400"
+    height="341" />
+
+  <p>A T-Rex on display in the Manchester University Museum.</p>
+</div>
+```
+
+***figure and figcaption element***
+```
+<figure>
+  <img
+    src="images/dinosaur.jpg"
+    alt="The head and torso of a dinosaur skeleton;
+            it has a large head with long sharp teeth"
+    width="400"
+    height="341" />
+
+  <figcaption>
+    A T-Rex on display in the Manchester University Museum.
+  </figcaption>
+</figure>
+```
 
 
 
