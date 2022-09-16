@@ -75,6 +75,10 @@ The *img* element can be enclosed inside the *div* element. However, if caption 
 </figure>
 ```
 
+###### Describe the difference between a gif image and an svg image, pretend you are explaining to an elder in your community.
+
+The *gif* images are supported by browser Chrome, Edge, Firefox, IE, Opera, and Safari. It is mostly good on simple animations and images; The way it is used is by adding *.gif* at the end of the image's filename (flower.gif).
+
 
 
 [^1]: [Images in HTML](https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Images_in_HTML)
