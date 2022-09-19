@@ -59,13 +59,89 @@ Sub element can be used in footnote numbers, "marking up the subscript in mathem
 
 ### When using the *abbr* element, what attribute must be added to provide the full expansion of the term?
 
-The *abbr element* represents acronym or abbreviation
+The *abbr element* represents an acronym or abbreviation; when used, it is advisable to include the full text in plain text, along with the *abbr*, as shown in the image below[^4]:
 
 <img width="373" alt="image" src="https://user-images.githubusercontent.com/113204667/191044915-57557f6a-9b3b-40ef-a2b0-f56cfc631b9d.png">
+[HTML Demo](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/abbr)
+doesn't exist.
+
+The *title attribute* provides an expansion for the acronym or abbreviation, in any case, full expansion doesn’t exist.
+
+## Learn CSS
+
+### What are ways we can apply CSS to our HTML?
+
+CSS can be applied through:
+- External stylesheet
+- Internal stylesheet
+- Inline styles
+
+The ***external Stylesheet*** is a separae file that has a .css extension, which contains the CSS styling. A singleCSS file - *external stylesheet*, can be link and used up to more than 1 web pages. To reference the this stylesheet, place the CSS file inside the *link* element as shown below[^5]:
+
+```
+<!DOCTYPE html>
+<html lang="en-GB">
+  <head>
+    <meta charset="utf-8" />
+    <title>My CSS experiment</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>Hello World!</h1>
+    <p>This is my first CSS example</p>
+  </body>
+</html>
+
+```
+
+The ***internal stylesheet*** are written inside the HTML document. It is written an dplaced inside the *style element* which is found inside the HTML *head*[^5]:
+
+```
+<!DOCTYPE html>
+<html lang="en-GB">
+  <head>
+    <meta charset="utf-8" />
+    <title>My CSS experiment</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>Hello World!</h1>
+    <p>This is my first CSS example</p>
+  </body>
+</html>
+
+```
+
+The *internal stylesheet* are less useful and can't be link to more than one page. To use the same internal stylesheet to multiple pages, each page must have the same internal stylesheet written inside the *style element*.
+
+
+The ***inline styles*** "are CSS declarations that affect a single HTML element, contained within a *style attribute*"[^5]. It is considered the least efficient CSS implementation for maintenance; having the code and content separated form each other, makes it easier to the people who work on the website[^5].
+
+An example adapted from MDN[^5]:
+
+```
+<!DOCTYPE html>
+<html lang="en-GB">
+  <head>
+    <meta charset="utf-8" />
+    <title>My CSS experiment</title>
+  </head>
+  <body>
+    <h1 style="color: blue;background-color: yellow;border: 1px solid black;">
+      Hello World!
+    </h1>
+    <p style="color:red;">This is my first CSS example</p>
+  </body>
+</html>
+
+```
+
 
 
 [^1]: [Introduction to HTML](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML)
 [^2]: [Sup: The Superscript Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/sup)
 [^3]: [Sub: : The Subscript Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/sub)
+[^4]: [Abbr: : The Abbreviation element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/abbr)
+[^5]: [How CSS is structured](https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps/How_CSS_is_structured)
 
 
