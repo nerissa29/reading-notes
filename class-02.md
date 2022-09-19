@@ -112,10 +112,11 @@ The ***internal stylesheet*** are written inside the HTML document. It is writte
 
 ```
 
-The *internal stylesheet* are less useful and can't be link to more than one page. To use the same internal stylesheet to multiple pages, each page must have the same internal stylesheet written inside the *style element*.
+The *internal stylesheet* are less useful and can't be linked to more than one page. To use the same internal stylesheet on multiple pages, each page must have the same internal stylesheet written inside the *style element*.
 
 
-The ***inline styles*** "are CSS declarations that affect a single HTML element, contained within a *style attribute*"[^5]. It is considered the least efficient CSS implementation for maintenance; having the code and content separated form each other, makes it easier to the people who work on the website[^5].
+The ***inline styles*** "are CSS declarations that affect a single HTML element, contained within a *style attribute*". It is considered the least efficient CSS implementation for maintenance; having the code and content separated from each other, makes it easier for the people who work on the website[^5].
+
 
 An example adapted from MDN[^5]:
 
@@ -136,6 +137,35 @@ An example adapted from MDN[^5]:
 
 ```
 
+### Why should we avoid using inline styles?
+
+According to MDN[^5]:
+- it is less efficient when it comes to maintenance; it will be harder to read and understand if code and content are put together
+- separating the web page content and its code makes it much easier for those who are working on the website
+- Inline styles are prioritized first, before internal and external; a change in one style might end up needing multiple edits
+
+
+### Review the block of code below and answer the following questions:
+
+<img width="347" alt="image" src="https://user-images.githubusercontent.com/113204667/191053061-adac74b7-f006-476b-876e-0f63c86ce30d.png">
+[Image from Read:Class 02](https://canvas.instructure.com/courses/5195147/discussion_topics/15584566)
+
+### What is representing the selector?
+- h2
+
+### Which components are the CSS declarations?
+- {
+  }
+  
+### Which components are considered properties?
+- color: ;
+- padding: ;
+
+
+## Learn JavaScript
+
+### What data type is a sequence of text enclosed in single quote marks?
+- String is a datatype wrapped around a single quote marks '' [^6]
 
 
 [^1]: [Introduction to HTML](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML)
@@ -143,5 +173,6 @@ An example adapted from MDN[^5]:
 [^3]: [Sub: : The Subscript Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/sub)
 [^4]: [Abbr: : The Abbreviation element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/abbr)
 [^5]: [How CSS is structured](https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps/How_CSS_is_structured)
+[^6]: [JavaScript Basics](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics)
 
 
