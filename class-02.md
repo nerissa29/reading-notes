@@ -167,6 +167,15 @@ According to MDN[^5]:
 ### What data type is a sequence of text enclosed in single quote marks?
 - String is a datatype wrapped around a single quote marks '' [^6]
 
+### List 4 types of JavaScript operators
+According to MDN[^6]:
+- Addition (++)
+- Subtraction, Multiplication, Division (-, *, /)
+- Assignment operator (=)
+- Strict equality (===)
+- Not, Does-not-equal (!, !==)
+
+
 
 [^1]: [Introduction to HTML](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML)
 [^2]: [Sup: The Superscript Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/sup)
