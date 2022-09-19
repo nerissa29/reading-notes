@@ -68,6 +68,9 @@ const paragraphs = document.querySelectorAll("p");
 alert(paragraphs[0].nodeName);
 ```
 
+## Things I want to know more about
+
+I would like to learn more about objects, nested arrays/objects, and how to access and iterate through them.
 
 
 References:
