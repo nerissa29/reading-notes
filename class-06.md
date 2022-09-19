@@ -75,6 +75,6 @@ I would like to learn more about objects, nested arrays/objects, and how to acce
 
 
 [^1]: [JavaScript Object Basics](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Basics)
-[^2]: [Literal]( https://developer.mozilla.org/en-US/docs/Glossary/Literal))
+[^2]: [Literal]( https://developer.mozilla.org/en-US/docs/Glossary/Literal)
 [^3]: [Introduction to the DOM](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction)
 
