@@ -31,7 +31,7 @@ There are six headings level available in HTML:
 
 ### What are some uses for the *sup* and *sub* elements?
 
-The *sup* element "specifies inline text which is to be displayed as superscript for solely typographical reasons"[^2]. 
+The ***sup*** element "specifies inline text which is to be displayed as superscript for solely typographical reasons"[^2]. 
 
 An example provided by MDN[^2]:
 
@@ -40,16 +40,28 @@ An example provided by MDN[^2]:
 
 
 ```
-Results to: **a2 + b2 = c2**
 
-The *sub* element "specifies inline text which should be displayed as subscript for solely typographical reasons"; an example is shown below[^3]:
+The *sup element* can also be used in ordinal numbers, such as 5th, 6th, 7th.
+
+
+The ***sub*** element "specifies inline text which should be displayed as subscript for solely typographical reasons"; an example is shown below[^3]:
 
 ```
 molecule is
 C<sub>8</sub>H<sub>10</sub>N<sub>4</sub>O<sub>2</sub>, also known as "caffeine."</p>
 
 ```
-Results to: **Almost every developer's favorite molecule is C8H10N4O2, also known as "caffeine."**
+
+The *sub* element should only be used for typographical reasons and not for style. For styling purposes, CSS properties, such as *vertical-align* should be used.
+
+Sub element can be used in footnote numbers, "marking up the subscript in mathematical variable numbers", or in specifying the number of atoms in chemical formulas[^3].
+
+
+### When using the *abbr* element, what attribute must be added to provide the full expansion of the term?
+
+The *abbr element* represents acronym or abbreviation
+
+<img width="373" alt="image" src="https://user-images.githubusercontent.com/113204667/191044915-57557f6a-9b3b-40ef-a2b0-f56cfc631b9d.png">
 
 
 [^1]: [Introduction to HTML](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML)
