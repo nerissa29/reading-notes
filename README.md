@@ -4,7 +4,7 @@ Hi Everyone, my name is ***Nerissa Leynes***; I am **nervous _and_ excited** at 
 
 ## **Table of Contents: Code 201**
 - [Reading Notes 1](class-01.md)
-- [Reading Notes 2](nerissa29.github.io/reading2)
+- [Reading Notes 2](class-02.md)
 - [Reading Notes 3](class-03.md)
 - [Reading Notes 4](class-04.md)
 - [Reading Notes 5](class-05.md)
