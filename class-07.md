@@ -18,8 +18,38 @@ A semantic element example[^1]:
 - *figcaption* - defines caption for figures
 - *aside element* - defines content *aside* from the page's content
 
+## Introducing constructors
+
+#### What is a constructor and what are some advantages to using it?
+
+Constructors name begin with capital letter, and is usually named for the object type they create; a sample shown below is adapated from MDN[^2]:
+
+```
+function Person(name) {
+  this.name = name;
+  this.introduceSelf = function() {
+    console.log(`Hi! I'm ${this.name}.`);
+  }
+}
+```
+To call the constructor, Person() above[^2]:
+
+```
+const salva = new Person('Salva');
+salva.name;
+salva.introduceSelf();
+
+const frankie = new Person('Frankie');
+frankie.name;
+frankie.introduceSelf();
+```
+
+
+
+
 
 [^1]: [Domain Modeling](https://github.com/codefellows/domain_modeling#domain-modeling)
+[^2]: [JavaScript Object Basics](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Basics#introducing_constructors)
 
 
 
