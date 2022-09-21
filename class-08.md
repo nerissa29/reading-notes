@@ -6,6 +6,12 @@
 
 Flexbox is design for laying out groups of items in one dimension; it can control the alignment and spacing (distributing space) between items that are within the container. It provides flexible boundaries between its content[^1].
 
+One of the layoout that can be used using the flex-direction is[^1]:
+- row: the items lay out as a row.
+- row-reverse: the items lay out as a row from the end of the flex container.
+- column: the items lay out as a column.
+- column-reverse : the items lay out as a column from the end of the flex container.
+
 #### Explain the difference between the main axis and cross axis.
 
 The *main axis* is set by *flex-direction* property. If it's a row, *mainaxis* "is along the row", and it it's a column, *main axis* "is along the column"[^1]. The *cross axis* on the other hand, runs in the opposite direction of the *main axis*; if *flex-deirection* for example is row, then the *cross axis* "runs along the column", it is main axis that follows the flex-direction[^1].
