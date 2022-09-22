@@ -119,7 +119,7 @@ Copy to Clipboard
  
  
  [^1]: [Your first form](https://developer.mozilla.org/en-US/docs/Learn/Forms/Your_first_form)
- [^2]: [An Extensive Guide To Web Form Usability(https://www.smashingmagazine.com/2011/11/extensive-guide-web-form-usability
+ [^2]: [An Extensive Guide To Web Form Usability](https://www.smashingmagazine.com/2011/11/extensive-guide-web-form-usability
  [^3]: [HTML Input Tag](https://www.w3schools.com/tags/tag_input.asp)
  [^4]: [HTML <textarea> Tag](https://www.w3schools.com/tags/tag_textarea.asp)
  [^5]: [HTML Button Tag](https://www.w3schools.com/tags/tag_button.asp)
