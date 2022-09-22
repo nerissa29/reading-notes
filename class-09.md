@@ -24,11 +24,49 @@ The form elements can contain the following:
 - textarea
   - used to collect user inputs, such as reviews or comments[^4]
 - button
-  - a clickable button 
+  - a clickable button with a text (ex. Submit, Cancel, etc.)[^5]
+- select
+  - a drop-down list of options, mostly used to cllect user input[^6]
+ - option 
+   - also a drop-down list placed inside the select, datalist, or optgroup element[^7]
+ 
+ ### Introduction To Events.
+ 
+ #### How would you describe events to a non-technical friend?
+ 
+I would describe events to a non-technical friend by breaking the ice and story-telling to give them time to get ready before throwing them technical information. Being attentive, and using visuals to better explain the topic might help.
+
+#### When using the addEventListener() method, what 2 arguments will you need to provide?
+
+The addEventListener can take two arguments, the (1) name of the event and the (2) function handling the event[^8]:
+
+```
+const btn = document.querySelector('button');
+
+function random(number) {
+  return Math.floor(Math.random() * (number+1));
+}
+
+btn.addEventListener('click', () => {
+  const rndCol = `rgb(${random(255)}, ${random(255)}, ${random(255)})`;
+  document.body.style.backgroundColor = rndCol;
+});
+
+```
+
+- the 'click' on the code above, indicates that we are waiting or listening to that click
+- the function above generates a random color (RGB) and sets the page's body background color "equal to that color"[^8].
+
+#### Describe the event object. Why is the target within the event object useful?
  
  
  [^1]: [Your first form](https://developer.mozilla.org/en-US/docs/Learn/Forms/Your_first_form)
  [^2]: [An Extensive Guide To Web Form Usability](https://www.smashingmagazine.com/2011/11/extensive-guide-web-form-usability
  [^3]: [HTML Input Tag](https://www.w3schools.com/tags/tag_input.asp)
  [^4]: [HTML <textarea> Tag](https://www.w3schools.com/tags/tag_textarea.asp)
- [^5]:
+ [^5]: [HTML Button Tag](https://www.w3schools.com/tags/tag_button.asp)
+ [^6]: [HTML Select Tag](https://www.w3schools.com/tags/tag_select.asp)
+ [^7]: [HTML Option Tag](https://www.w3schools.com/tags/tag_option.asp)
+ [^8]: [Introduction to events](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Events)
+ 
+ 
