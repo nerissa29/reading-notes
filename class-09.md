@@ -58,10 +58,68 @@ btn.addEventListener('click', () => {
 - the function above generates a random color (RGB) and sets the page's body background color "equal to that color"[^8].
 
 #### Describe the event object. Why is the target within the event object useful?
+
+The *event, evt, or e* is often called the ***event object*** which is "s automatically passed to event handlers to provide extra features and information[^8].
+
+An example adapted form MDN[^8]:
+```
+const btn = document.querySelector('button');
+
+function random(number) {
+  return Math.floor(Math.random() * (number+1));
+}
+
+function bgChange(e) {
+  const rndCol = `rgb(${random(255)}, ${random(255)}, ${random(255)})`;
+  e.target.style.backgroundColor = rndCol;
+  console.log(e);
+}
+
+btn.addEventListener('click', bgChange);
+
+```
+
+An event object ***e*** is included in the function above, setting a background color on the *e.target* button; any name can be used for the event object, which can then be reference inisde the event handler function[^8].
+
+#### What is the difference between event bubbling and event capturing?
+
+The *event bubbling* and *capture* "describe phases in how the browser handles events targeted at nested elements"; an example would be below[^8]:
+
+```
+<body>
+  <div id="container">
+    <button>Click me!</button>
+  </div>
+  <pre id="output"></pre>
+</body>
+
+```
+
+```
+const output = document.querySelector('#output');
+function handleClick(e) {
+  output.textContent += `You clicked on a ${e.currentTarget.tagName} element\n`;
+}
+
+const container = document.querySelector('#container');
+const button = document.querySelector('button');
+
+document.body.addEventListener('click', handleClick);
+container.addEventListener('click', handleClick);
+button.addEventListener('click', handleClick);
+Copy to Clipboard
+
+
+```
+
+<img width="349" alt="image" src="https://user-images.githubusercontent.com/113204667/191792152-dbde69cf-00f4-431f-a504-c5eb8819d495.png">
+
+
+
  
  
  [^1]: [Your first form](https://developer.mozilla.org/en-US/docs/Learn/Forms/Your_first_form)
- [^2]: [An Extensive Guide To Web Form Usability](https://www.smashingmagazine.com/2011/11/extensive-guide-web-form-usability
+ [^2]: [An Extensive Guide To Web Form Usability(https://www.smashingmagazine.com/2011/11/extensive-guide-web-form-usability
  [^3]: [HTML Input Tag](https://www.w3schools.com/tags/tag_input.asp)
  [^4]: [HTML <textarea> Tag](https://www.w3schools.com/tags/tag_textarea.asp)
  [^5]: [HTML Button Tag](https://www.w3schools.com/tags/tag_button.asp)
