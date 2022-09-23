@@ -29,8 +29,20 @@ To open[^2]:
   - Firefox: Menu
 
 
+#### Define what a breakpoint is.
+
+A breakpoint stops the code form executing and allows you to look over the JavaScript values. Once done examining, the code execution can now proceed[^2]
+
+
+#### What is the call stack?
+
+As defined in MDN, “call stack is a mechanism for an interpreter (like the JavaScript interpreter in a web browser) to keep track of its place in a script that calls multiple functions — what function is currently being run and what functions are called from within that function, etc.[^1]”.
+
+Every time we invoke a function, the interpreter adds this to the call stack before executing the function. Also, every function called by that function is added to the call stack and runs when invoked. When the function currently running has just got done, the interpreter takes that function off the stack. If the stack keeps adding up where there is no more space left, then a “stack overflow” happens ^3].
+
 
 
 [^1]: [What went wrong? Troubleshooting JavaScript]( https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/What_went_wrong)
 [^2]: [What are browser developer tools?](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/What_are_browser_developer_tools#the_javascript_debugger)
+[^3]: [Call stack]( https://developer.mozilla.org/en-US/docs/Glossary/Call_stack)
 
