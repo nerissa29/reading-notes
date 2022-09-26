@@ -43,7 +43,35 @@ The *audio* HTML element "is used to embed sound content in documents" and can h
 
 ```
 
-The *audio*, just like the *video* element, also works the same as the *img* element, where a media path is placed inside the *src* attribute and can also specify whether we want the audio or video to autoplay or loop. Online videos and audios are first made possible by "plugin-based technologies like Flash and Silverlight"[^3], which has accessibility and security issues "and are now obsolete, in favor of native HTML solutions <video> and <audio> elements and the availability of JavaScript APIs for controlling them"[^3].
+The *audio*, just like the *video* element, also works the same as the *img* element, where a media path is placed inside the *src* attribute and can also specify whether we want the audio or video to autoplay or loop. Online videos and audios are first made possible by "plugin-based technologies like Flash and Silverlight"[^3], which has accessibility and security issues "and are now obsolete, in favor of native HTML solutions *video and audio* elements and the availability of JavaScript APIs for controlling them"[^3].
+    
+#### Describe the use of the src and controls attributes in the video element.
+
+The *src* attribute embeds the video path; it works the same way as the *img* element[^3]. The *controls* is a way for a user to be able to control the video. The *control* attribute uses the "browser's own control interface", or one can build an interface " using the appropriate JavaScript API"[^3].
+
+
+#### Why is it important to have fallback content inside the video element?
+
+The fallback content is the paragraph shown below[^3]:
+
+```
+<video src="rabbit320.webm" controls>
+  <p>
+    Your browser doesn't support HTML video. Here is a
+    <a href="rabbit320.webm">link to the video</a> instead.
+  </p>
+</video>
+
+```
+
+In any case the browser doesn't support the *video* element, the *fallback content* will display the message; it allows "to provide a fallback for older browsers"[^3]. A direct link can be provided so that the user can still have a way to access the video.
+
+
+### A Complete Guide To Grid
+
+#### How does Grid layout differ from Flex?
+
+
 
 
 
