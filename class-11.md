@@ -76,9 +76,14 @@ The Flexbox is a one-dimensional layout; it's layout is designed to be one-dimen
 
 #### Grid container, grid item, and grid line are a few important terms to understand when using Grid. Please describe these terms in a few sentences.
 
-The *display: grid | inline-grid;* property defines the element as a "grid container and establishes a new grid formatting context for its contents"[^5]. The *grid* "generates a block-level* grid, and the *inline-gris* "generates an inline-level grid"[^5]. A grid container can contain *grid items* which can be styled. The *grid line* are lines - (a) vertical or "column gridlines", (b) horizontal or "row grid lines", that make up the grid stucture[^5].
+The *display: grid | inline-grid;* property defines the element as a "grid container and establishes a new grid formatting context for its contents"[^5]. The *grid* "generates a block-level* grid, and the *inline-grid* "generates an inline-level grid"[^5]. A grid container can contain *grid items* which can be styled. The *grid line* are lines - (a) vertical or "column gridlines", (b) horizontal or "row grid lines", that make up the grid structure[^5].
 
 
+### Responsive Images
+
+#### Besides making a site visually appealing across different screen sizes, why should developers make images responsive?
+
+It improves user experience, and gives the images a sense of importance. It also allows your site's content to flow freely on all screen sizes. It is well-organized and renders great look.
 
 
 [^1]: [Video: The Video Embed element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video)
