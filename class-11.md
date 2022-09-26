@@ -71,7 +71,12 @@ In any case the browser doesn't support the *video* element, the *fallback conte
 
 #### How does Grid layout differ from Flex?
 
+The Flexbox is a one-dimensional layout; it's layout is designed to be one-dimension, it could be a row or a column. Grid, on the othe other hand, is designed to be a two-dimensional layout, it can be both rows and columns at the same time[^4].
 
+
+#### Grid container, grid item, and grid line are a few important terms to understand when using Grid. Please describe these terms in a few sentences.
+
+The *display: grid | inline-grid;* property defines the element as a "grid container and establishes a new grid formatting context for its contents"[^5]. The *grid* "generates a block-level* grid, and the *inline-gris* "generates an inline-level grid"[^5]. A grid container can contain *grid items* which can be styled. The *grid line* are lines - (a) vertical or "column gridlines", (b) horizontal or "row grid lines", that make up the grid stucture[^5].
 
 
 
@@ -79,4 +84,6 @@ In any case the browser doesn't support the *video* element, the *fallback conte
 [^1]: [Video: The Video Embed element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video)
 [^2]: [Audio: The Embed Audio element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/audio)
 [^3]: [Video and Audio content](https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Video_and_audio_content)
+[^4]: [Relationship of Grid Layout to Other Layout Methods](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout/Relationship_of_Grid_Layout#:~:text=already%20be%20using.-,Grid%20and%20flexbox,columns%20at%20the%20same%20time.)
+[^5]: [A Complete Guide to Grid](https://css-tricks.com/snippets/css/complete-guide-grid/)
 
