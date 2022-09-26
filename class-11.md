@@ -43,9 +43,12 @@ The *audio* HTML element "is used to embed sound content in documents" and can h
 
 ```
 
-The *audio*, just like the *video* element, also works the same as the *img* element, where a media path is placed inside the *src* attribute and can also specify whether we want the audio or video to autoplay or loop.
+The *audio*, just like the *video* element, also works the same as the *img* element, where a media path is placed inside the *src* attribute and can also specify whether we want the audio or video to autoplay or loop. Online videos and audios are first made possible by "plugin-based technologies like Flash and Silverlight"[^3], which has accessibility and security issues "and are now obsolete, in favor of native HTML solutions <video> and <audio> elements and the availability of JavaScript APIs for controlling them"[^3].
+
+
 
 
 [^1]: [Video: The Video Embed element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video)
 [^2]: [Audio: The Embed Audio element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/audio)
+[^3]: [Video and Audio content](https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Video_and_audio_content)
 
