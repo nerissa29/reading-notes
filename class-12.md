@@ -25,4 +25,9 @@ canvas.width = 600;
 canvas.height = 400;
 ```
 
-[^1]: []()
+#### What is the importance of the closing canvas tag?
+
+In between the opening and closing tags of canvas, lies the fallback content, which will be displayed in any case the browser does not support the canvas element[^1].
+
+
+[^1]: [JavaScript Canvas](https://www.javascripttutorial.net/web-apis/javascript-canvas/)
