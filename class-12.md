@@ -32,7 +32,33 @@ In between the opening and closing tags of canvas, lies the fallback content, wh
 
 #### Explain what the getContext() method does.
 
-The getContext() method is another feature of canvas element that returns "a render context object"[^1]. It takes the type of context as its one argument[^1].
+The getContext() method is another feature of canvas element that returns "a render context object"[^1]. It takes the type of context as its one argument[^1]. Its built-in chart types are as follows[^2]:
+
+- Scatter Plot
+- Bar chart
+- Line chart
+- Bubble chart
+- Donut Chart
+- Pie chart
+- Radar chart
+- Area chart
+- Mixed chart
+
+
+### Chart.js Documentation
+
+#### What is Chart.js and how it can be brought into your project?
+
+It is a flexible tool used by the designers and developers for charting. It is used for "making HTML-based charts[^2]"
 
 
 [^1]: [JavaScript Canvas](https://www.javascripttutorial.net/web-apis/javascript-canvas/)
+[^2]: [Chart.js](https://www.w3schools.com/js/js_graphics_chartjs.asp)
+
+
+
+
+
+
+
+
