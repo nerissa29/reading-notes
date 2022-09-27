@@ -30,4 +30,9 @@ canvas.height = 400;
 In between the opening and closing tags of canvas, lies the fallback content, which will be displayed in any case the browser does not support the canvas element[^1].
 
 
+#### Explain what the getContext() method does.
+
+The getContext() method is another feature of canvas element that returns "a render context object"[^1]. It takes the type of context as its one argument[^1].
+
+
 [^1]: [JavaScript Canvas](https://www.javascripttutorial.net/web-apis/javascript-canvas/)
