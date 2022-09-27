@@ -72,6 +72,9 @@ As mentioned above, adapted from W3Schools page, below are the built-in chart ty
 #### What are some advantages to displaying data via a chart over a table?
  One of the advantages the chart has is it conveys data quickly and are easier to use[^3]. It shows data in patterns, it can also show the relationships between different variables in graphs. Graphs or charts make it easier to read and remember than the statistics displayed in tables.
 
+#### How could Chart.js aid your previously created applications visually?
+
+
 
 [^1]: [JavaScript Canvas](https://www.javascripttutorial.net/web-apis/javascript-canvas/)
 [^2]: [Chart.js](https://www.w3schools.com/js/js_graphics_chartjs.asp)
