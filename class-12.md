@@ -74,6 +74,7 @@ As mentioned above, adapted from W3Schools page, below are the built-in chart ty
 
 #### How could Chart.js aid your previously created applications visually?
 
+It will make the data or the results easier to read in charts or graphs, rather than in lists. The differences and the relationships between the varaibles (voting count or views for example) can be spotted easily, compared to being written in unordered lists.
 
 
 [^1]: [JavaScript Canvas](https://www.javascripttutorial.net/web-apis/javascript-canvas/)
