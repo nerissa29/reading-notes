@@ -12,6 +12,7 @@ The PII (Personally Identifiable Authentication), user's data session, and autho
 
 #### Local storage can store what type of data? How would you convert it to that type before storing?
 
+Only strings can be stored in local storage; if creating an object, it will not store the real object information, but might show "the data is stored as [object Object][^1]". The *local storage* stores *string data* for values or keys.
 
 [^1]: [Local Storage And How To Use It On Websites](https://www.smashingmagazine.com/2010/10/local-storage-and-how-to-use-it/)
 
