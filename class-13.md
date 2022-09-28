@@ -8,6 +8,9 @@ The developer uses local storage to help store the state of the user's interface
 
 #### What information should not be stored in local storage?
 
+The PII (Personally Identifiable Authentication), user's data session, and authorization tokens are one of the critical information that shouldn't be stored in local storage. This is something that shouldn't be shared publicly. Information that is safe for public can be stored in local storage.
+
+#### Local storage can store what type of data? How would you convert it to that type before storing?
 
 
 [^1]: [Local Storage And How To Use It On Websites](https://www.smashingmagazine.com/2010/10/local-storage-and-how-to-use-it/)
