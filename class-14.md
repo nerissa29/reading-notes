@@ -70,7 +70,11 @@ Below are the transition properties[^2]:
 - transition-timing-function
 - transition-delay
 
+ It changes the values over a duration specified; it animates the property changes.
  
+ #### How does a CSS animation differ from a CSS transition?
+ 
+ The CSS tr
  
 [^1]: [Transforms](https://learn.shayhowe.com/advanced-html-css/css-transforms/)
 [^2]: [Transitions & Animations](https://learn.shayhowe.com/advanced-html-css/transitions-animations/)
