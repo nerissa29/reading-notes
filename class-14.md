@@ -74,7 +74,8 @@ Below are the transition properties[^2]:
  
  #### How does a CSS animation differ from a CSS transition?
  
- The CSS tr
+ The CSS transitions can "alter the appearance and behavior of an element whenever a state change occurs", while animations "allow the appearance and behavior of an element to be altered in multiple keyframes[^2]".
+ 
  
 [^1]: [Transforms](https://learn.shayhowe.com/advanced-html-css/css-transforms/)
 [^2]: [Transitions & Animations](https://learn.shayhowe.com/advanced-html-css/transitions-animations/)
