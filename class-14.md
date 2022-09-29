@@ -58,7 +58,20 @@
  <img width="451" alt="image" src="https://user-images.githubusercontent.com/113204667/193062297-51ed37d8-d956-4daa-b83c-48bfc046cef8.png">
  
  
- 
- [^1]: [Transforms](https://learn.shayhowe.com/advanced-html-css/css-transforms/)
+### CSS Transitions & Animations
 
+#### What does a CSS transition allow the developer to do to an element?
+
+In order to use transition, the element must have a change in state and different style; using *:hover, :focus, :active, and :target* determines the styles for different states[^2]. 
+
+Below are the transition properties[^2]:
+- transition-property
+- transition-duration
+- transition-timing-function
+- transition-delay
+
+ 
+ 
+[^1]: [Transforms](https://learn.shayhowe.com/advanced-html-css/css-transforms/)
+[^2]: [Transitions & Animations](https://learn.shayhowe.com/advanced-html-css/transitions-animations/)
 
