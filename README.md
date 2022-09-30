@@ -18,4 +18,5 @@ Hi Everyone, my name is ***Nerissa Leynes***; I am **nervous _and_ excited** at 
 - [Reading Notes 13](class-13.md)
 - [Reading Notes 14](class-14.md)
 - [Reading Notes 15](class-15.md)
+- [Psychological Safety](pschological-safety.md)
 
