@@ -1,8 +1,10 @@
-# reading-notes
+# Reading-notes
 ## Code 201 Reading Notes
 Hi Everyone, my name is ***Nerissa Leynes***; I am **nervous _and_ excited** at the same time, but I am ready to learn with you all. Please **_bear_ with me as I am _new_ to GitHub and haven’t done Code 101**. I have no notes to include with Code 101.
 
-## **Table of Contents: Code 201**
+## Code 201 - Foundations of Software Development
+
+### **Table of Contents: Code 201**
 - [Reading Notes 1](class-01.md)
 - [Reading Notes 2](class-02.md)
 - [Reading Notes 3](class-03.md)
@@ -19,4 +21,28 @@ Hi Everyone, my name is ***Nerissa Leynes***; I am **nervous _and_ excited** at 
 - [Reading Notes 14](class-14.md)
 - [Reading Notes 15](class-15.md)
 - [Psychological Safety](psychological-safety.md)
+
+
+## Code 301 - Intermediate Software Development
+
+### **Table of Contents: Code 301**
+- [Reading Notes 1](.md)
+- [Reading Notes 2](.md)
+- [Reading Notes 3](.md)
+- [Reading Notes 4](.md)
+- [Reading Notes 5](.md)
+- [Reading Notes 6](.md)
+- [Reading Notes 7](.md)
+- [Reading Notes 8](.md)
+- [Reading Notes 9](.md)
+- [Reading Notes 10](.md)
+- [Reading Notes 11](.md)
+- [Reading Notes 12](.md)
+- [Reading Notes 13](.md)
+- [Reading Notes 14](.md)
+- [Reading Notes 15](.md)
+
+
+## Code 401 - Advanced Software Development
+
 
