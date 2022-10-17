@@ -46,7 +46,13 @@ The advantages of using component-based architecture, based on [Component-Based 
 *Props* is a short for *properties* which is used for "passing data from one component to another"[^2]. Props' data are passed in one-way - from parent to child; one way is also known as *unidirectional flow*. Also, the data coming from the parent is a read-only, child-components must not change this data.
 
 
+### How are props used in React?
 
+**Props in React (According to [What is “Props” and how to use it in React?](https://itnext.io/what-is-props-and-how-to-use-it-in-react-da307f500da0)):**
+
+- define the attribute and its values
+- using props, pass this to child components
+- render the Props Data
 
 
 [^1]: [Component-Based Architecture](https://www.tutorialspoint.com/software_architecture_design/component_based_architecture.htm)
