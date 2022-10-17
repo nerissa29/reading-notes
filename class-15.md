@@ -56,7 +56,7 @@ The advantages of using component-based architecture, based on [Component-Based 
 
 Example[^2]:
 
-'''
+```
 class ParentComponent extends Component {  
   render() {
     return (
@@ -67,7 +67,7 @@ class ParentComponent extends Component {
     );
   }
 }
-'''
+```
 
 ### What is the flow of props?
 
