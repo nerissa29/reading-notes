@@ -54,6 +54,24 @@ The advantages of using component-based architecture, based on [Component-Based 
 - using props, pass this to child components
 - render the Props Data
 
+Example[^2]:
+
+'''
+class ParentComponent extends Component {  
+  render() {
+    return (
+      <h1>
+        I'm the parent component.
+        <ChildComponent />
+      </h1>
+    );
+  }
+}
+'''
+
+### What is the flow of props?
+
+Props data flow in one-way, from parent to child; it is also known as the unidirectional flow.
 
 [^1]: [Component-Based Architecture](https://www.tutorialspoint.com/software_architecture_design/component_based_architecture.htm)
 [^2]: [What is “Props” and how to use it in React?](https://itnext.io/what-is-props-and-how-to-use-it-in-react-da307f500da0)
