@@ -4,7 +4,7 @@
 
 ### What is a “component”?
 
-Component is a "software object, intended to interact with other components, encapsulating certain functionality or a set of functionalities"[^1].
+A component is a "software object, intended to interact with other components, encapsulating certain functionality or a set of functionalities"[^1].
 
 
 ### What are the characteristics of a component?
@@ -12,15 +12,15 @@ Component is a "software object, intended to interact with other components, enc
 According to [Component-Based Architecture](https://www.tutorialspoint.com/software_architecture_design/component_based_architecture.htm), the characteristics of Components are:
 
 - Reusability 
-  - it is designed to be reused in different applications and in different situations; some components may also have a specific task
+  - it is designed to be reused in different applications and different situations; some components may also have a specific task
 - Replaceable 
-  - it can be replace or substituted with similar components
+  - it can be replaced or substituted with similar components
 - Not Content specific
   - it can operate in different contexts and environments
 - Extensible
   - to provide new behavior, it can be extended
 - Encapsulated
-  - it does not expose internal processes details and it depicts interfaces
+  - it does not expose internal processes details, and it depicts interfaces
 - Independent
   - it has minimum dependencies on other components
 
@@ -43,7 +43,7 @@ The advantages of using component-based architecture, based on [Component-Based 
 
 ### What is “props” short for?
 
-*Props* is a short for *properties* which is used for "passing data from one component to another"[^2]. Props' data are passed in one-way - from parent to child; one way is also known as *unidirectional flow*. Also, the data coming from the parent is a read-only, child-components must not change this data.
+*Props* is short for *properties* which is used for "passing data from one component to another"[^2]. Props' data are passed in one-way - from parent to child; one way is known as *unidirectional flow*. Also, the data coming from the parent is read-only, child-components must not change this data.
 
 
 ### How are props used in React?
@@ -69,9 +69,15 @@ class ParentComponent extends Component {
 }
 ```
 
+
 ### What is the flow of props?
 
 Props data flow in one-way, from parent to child; it is also known as the unidirectional flow.
+
+
+## Things I want to know more about
+I want to see this information being used or applied in a code.
+
 
 [^1]: [Component-Based Architecture](https://www.tutorialspoint.com/software_architecture_design/component_based_architecture.htm)
 [^2]: [What is “Props” and how to use it in React?](https://itnext.io/what-is-props-and-how-to-use-it-in-react-da307f500da0)
