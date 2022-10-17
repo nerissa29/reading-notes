@@ -1,5 +1,7 @@
 # Reading Notes 1
 
+It is critical to understand the flow of data, especially when building web applications and user interface.
+
 ## Component-Based Architecture
 
 ### What is a “component”?
