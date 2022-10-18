@@ -47,6 +47,10 @@ Props are external and is passed into the components, while state is internal - 
 We re-render our application when there is an update in state or props. We also render child components everytime parent component is rendered or re-rendered[^4].
 
 
+### What are some examples of things that we could store in state?
+
+A form that needs to be filled out through controlled component is a good exapmle of what state can handle[^3]. So, forms that takes inputs can can be stored in state.
+
 
 [^1]: [Blankenship(2018)](https://medium.com/@joshuablankenshipnola/react-component-lifecycle-events-cb77e670a093)
 [^2]: [React Docs: Passing Props to a Component](https://beta.reactjs.org/learn/passing-props-to-a-component)
