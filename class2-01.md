@@ -36,6 +36,6 @@ Once the component is mounted, the *componentDidMount* will immediately invoked;
 
 ### What types of things can you pass in the props?
 
-Props can pass data from one component to another; parent component uses props to pass data to its child components[^2]
+Props can pass data from one component to another; parent component uses props to pass data to its child components[^2]. On the other hand, *state* can only be changed by its own component, and is not available or cannot pass to another component.
 
 [^1]: [Blankenship(2018)](https://medium.com/@joshuablankenshipnola/react-component-lifecycle-events-cb77e670a093)
