@@ -52,6 +52,11 @@ We re-render our application when there is an update in state or props. We also 
 A form that needs to be filled out through controlled component is a good exapmle of what state can handle[^3]. So, forms that takes inputs can can be stored in state.
 
 
+## Things I want to know more about
+
+I want to learn more about state and props through activities/Labs.
+
+
 [^1]: [Blankenship(2018)](https://medium.com/@joshuablankenshipnola/react-component-lifecycle-events-cb77e670a093)
 [^2]: [React Docs: Passing Props to a Component](https://beta.reactjs.org/learn/passing-props-to-a-component)
 [^3]: [Web Dev Simplified: React State Vs Props](https://www.youtube.com/watch?v=IYvD9oBCuJI)
