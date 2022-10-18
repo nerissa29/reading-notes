@@ -42,10 +42,13 @@ Props can pass data from one component to another; parent component uses props t
 
 Props are external and is passed into the components, while state is internal - "handled inside" of that component and can only be change by that component itself [^3]. State can be update inside the component, while props are handled and must be updated outside of the component[^3].
 
+### When do we re-render our application?
+
+We re-render our application when there is an update in state or props. We also render child components everytime parent component is rendered or re-rendered[^4].
 
 
 
 [^1]: [Blankenship(2018)](https://medium.com/@joshuablankenshipnola/react-component-lifecycle-events-cb77e670a093)
 [^2]: [React Docs: Passing Props to a Component](https://beta.reactjs.org/learn/passing-props-to-a-component)
 [^3]: [Web Dev Simplified: React State Vs Props](https://www.youtube.com/watch?v=IYvD9oBCuJI)
-
+[^4]: [Re-rendering Components in ReactJS](https://www.geeksforgeeks.org/re-rendering-components-in-reactjs/)
