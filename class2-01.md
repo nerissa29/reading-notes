@@ -32,6 +32,10 @@ Based on the diagram, the following happens in order[^1]:
 
 Once the component is mounted, the *componentDidMount* will immediately invoked; DOM initialization or network request usually goes here [^1]. [Blankenship(2018)](https://medium.com/@joshuablankenshipnola/react-component-lifecycle-events-cb77e670a093) states in his article that this method is good for setting up subscriptions, while componentWillUnmount() is for unsubscribing.
 
+## React State Vs Props
 
+### What types of things can you pass in the props?
+
+Props can pass data from one component to another; parent component uses props to pass data to its child components[^2]
 
 [^1]: [Blankenship(2018)](https://medium.com/@joshuablankenshipnola/react-component-lifecycle-events-cb77e670a093)
