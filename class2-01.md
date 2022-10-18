@@ -1,4 +1,4 @@
-# Reading NOtes 2
+# Reading Notes 2
 
 ## React lifecycle
 
