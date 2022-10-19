@@ -23,6 +23,14 @@ Each list items must have a unique keys. These keys does not need to be global, 
 
 ### What is the purpose of a key?
 
+The purpose of the key in React is to identify which items are added, modified, or removed[^2]. It should be given inside the array, when looping over the array, to give the elements their identity.
+
+
+## The Spread Operator
+
+### What is the spread operator?
+
+
 
 
 [^1]: [MDN Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map)
