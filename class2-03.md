@@ -62,8 +62,12 @@ Using the code provided in [How to Use the Spread Operator (…) in JavaScript](
 
 <img width="603" alt="image" src="https://user-images.githubusercontent.com/113204667/196735553-288e086b-a62f-4488-b5a2-6ecdd0986326.png">
 
+## How to Pass Functions Between Components
+
+### In the video, what is the first step that the developer does to pass functions between components?
 
 
-[^1]: [MDN Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map)
+
+[^1]: [MDN: .map()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map)
 [^2]: [React: Lists and Keys](https://reactjs.org/docs/lists-and-keys.html)
 [^3]: [How to Use the Spread Operator (…) in JavaScript](https://medium.com/coding-at-dawn/how-to-use-the-spread-operator-in-javascript-b9e4a8b06fab)
