@@ -66,6 +66,12 @@ Using the code provided in [How to Use the Spread Operator (…) in JavaScript](
 
 ### In the video, what is the first step that the developer does to pass functions between components?
 
+The developer created a function that increments the count in a component where it needs to update the state
+
+### In your own words, what does the increment function do?
+
+The increment() is creating a new array and looping over the current arrays to increment the count of the person, whoever is clicked. It then update that count to 1 every time the button is triggered/click. The function also updates or re-assigned the existing array into the new array, after changes are made.
+
 
 
 [^1]: [MDN: .map()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map)
