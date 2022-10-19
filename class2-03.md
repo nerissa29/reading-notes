@@ -60,8 +60,7 @@ Another screenshot from Austin's example in [How to Use the Spread Operator (…
 
 Using the code provided in [How to Use the Spread Operator (…) in JavaScript](https://medium.com/coding-at-dawn/how-to-use-the-spread-operator-in-javascript-b9e4a8b06fab), two objects are combined into one:
 
-[How to Use the Spread Operator (…) in JavaScript](https://medium.com/coding-at-dawn/how-to-use-the-spread-operator-in-javascript-b9e4a8b06fab)
-
+<img width="603" alt="image" src="https://user-images.githubusercontent.com/113204667/196735553-288e086b-a62f-4488-b5a2-6ecdd0986326.png">
 
 
 
