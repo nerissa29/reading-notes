@@ -27,7 +27,7 @@ Hi Everyone, my name is ***Nerissa Leynes***; I am **nervous _and_ excited** at 
 ### **Table of Contents: Code 301**
 - [Reading Notes 1](class-15.md)
 - [Reading Notes 2](class2-01.md)
-- [Reading Notes 3](.md)
+- [Reading Notes 3](class2-03.md)
 - [Reading Notes 4](.md)
 - [Reading Notes 5](.md)
 - [Reading Notes 6](.md)
