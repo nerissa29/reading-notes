@@ -43,6 +43,8 @@ I would like to see how to implement forms in React and be able to apply it in L
 
 ### Resources:
 Morelli, B. (2017, December 18). *JavaScript - the conditional(ternary) operator explained*. Codeburst. https://codeburst.io/javascript-the-conditional-ternary-operator-explained-cac7218beeff
+
+
 [^1]: [React Docs: Forms](https://reactjs.org/docs/forms.html)
 
 
