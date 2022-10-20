@@ -17,6 +17,28 @@ Form elements like *input* maintains and updates their own state based on the us
 
 ## The Conditional (Ternary) Operator Explained
 
+### Why would we use a ternary operator?
 
+The ternary operator shortens the if-else statement into one line (Morelli, 2017).
+
+### Rewrite the following statement using a ternary statement:
+
+```
+if(x===y){
+  console.log(true);
+} else {
+  console.log(false);
+}
+```
+
+Using Ternary operator:
+x===y ? console.log(true) : console.log(false)
+
+Note that the 5 line of code in the original if-else statement has been shorten into one line of code using the ternary operator.
+
+#### Resources
+Morelli, B. (2017, December 18). *JavaScript - the conditional(ternary) operator explained*. Codeburst. https://codeburst.io/javascript-the-conditional-ternary-operator-explained-cac7218beeff
 [^1]: [React Docs: Forms](https://reactjs.org/docs/forms.html)
+
+
 
