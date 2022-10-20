@@ -1,5 +1,7 @@
 # Reading Notes 04
 
+Forms allows the user to interact with the page, today's topic will be useful in understanding how to implement forms in React.
+
 ## React Docs - Forms
 
 ### What is a ‘Controlled Component’?
@@ -36,7 +38,10 @@ x===y ? console.log(true) : console.log(false)
 
 Note that the 5 line of code in the original if-else statement has been shorten into one line of code using the ternary operator.
 
-#### Resources
+## Things I want to know more about
+I would like to see how to implement forms in React and be able to apply it in Lab or other activities.
+
+### Resources:
 Morelli, B. (2017, December 18). *JavaScript - the conditional(ternary) operator explained*. Codeburst. https://codeburst.io/javascript-the-conditional-ternary-operator-explained-cac7218beeff
 [^1]: [React Docs: Forms](https://reactjs.org/docs/forms.html)
 
