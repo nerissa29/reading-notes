@@ -8,6 +8,15 @@ Controlled Components are input form elements in which the form's data or values
 
 ### Should we wait to store the users responses from the form into state when they submit the form OR should we update the state with their responses as soon as they enter them? Why.
 
+In controlled compoent, the user input values are always controlled by React, as the user types, the event that target that value will run, updating the React state[^1]. According to [React Docs: Forms](https://reactjs.org/docs/forms.html), with "a controlled component, the input’s value is always driven by the React state".
 
-[^1]: [Forms](https://reactjs.org/docs/forms.html)
+
+### How do we target what the user is entering if we have an event handler on an input field?
+
+Form elements like *input* maintains and updates their own state based on the user input. Th event handler on the inout field will then run "on every keystroke to update the React state[^1]"; it will update te displayed value as the user types.
+
+## The Conditional (Ternary) Operator Explained
+
+
+[^1]: [React Docs: Forms](https://reactjs.org/docs/forms.html)
 
