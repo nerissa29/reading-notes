@@ -29,7 +29,7 @@ Hi Everyone, my name is ***Nerissa Leynes***; I am **nervous _and_ excited** at 
 - [Reading Notes 2](class2-01.md)
 - [Reading Notes 3](class2-03.md)
 - [Reading Notes 4](class2-04.md)
-- [Reading Notes 5](.md)
+- [Reading Notes 5](class2-05.md)
 - [Reading Notes 6](.md)
 - [Reading Notes 7](.md)
 - [Reading Notes 8](.md)
