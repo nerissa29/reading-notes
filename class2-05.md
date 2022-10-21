@@ -1,10 +1,10 @@
-# Reading NOtes 05
+# Reading Notes 05
 
 ## React Docs - Thinking in React
 
 ### What is the single responsibility principle and how does it apply to components?
 
-A *single responsibility* principle is having each component to do one thing. If the idea keeps growing, then that component "should be decomposed into smaller subcomponents[^1]".
+A *single responsibility* principle has each component do one thing. If the idea keeps growing, that component "should be decomposed into smaller subcomponents [^1]".
 
 The screenshot/information below are provided by the article [React Docs: Thinking in React](https://reactjs.org/docs/thinking-in-react.html):
 
@@ -15,7 +15,7 @@ The screenshot/information below are provided by the article [React Docs: Thinki
 
 ### What does it mean to build a ‘static’ version of your application?
 
-Building a *statatic version* is a way to implement your app once the component hierarchy has been decided.
+Building a *static version* is a way to implement your app once the component hierarchy has been decided.
 
 
 [^1]: [React Docs: Thinking in React](https://reactjs.org/docs/thinking-in-react.html)
