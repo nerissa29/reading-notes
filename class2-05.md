@@ -15,15 +15,23 @@ The screenshot/information below are provided by the article [React Docs: Thinki
 
 ### What does it mean to build a ‘static’ version of your application?
 
-Building a *static version* is a way to implement your app once the component hierarchy has been decided[^1]. It's same as building components and its subcomponents passing in data using props, but without using *state*. State is applied during interactivity phase.
+Building a *static version* is a way to implement your app once the component hierarchy has been decided [^1]. It's the same as building components and their subcomponents passing in data using props, but without using *state*. The state is applied during the interactivity phase.
 
 ### Once you have a static application, what do you need to add?
 
-Once the static version that renders the app is built, next step is adding interactivity; this is where the *state* comes in. "Identify The Minimal (but complete) Representation Of UI State" will be the next step [^1]. Breaking down pieces of data and figuring out which needs state is important, ask these three questions from [React Docs: Thinking in React](https://reactjs.org/docs/thinking-in-react.html):
+Once the static version that renders the app is built, the next step is adding interactivity; this is where the *state* comes in. "Identify The Minimal (but complete) Representation of UI State" will be the next step [^1]. Breaking down pieces of data and figuring out which needs state is essential. 
+
+
+### What are the three questions you can ask to determine if something is state?
+
+To determine if something is state, ask these three questions from [React Docs: Thinking in React](https://reactjs.org/docs/thinking-in-react.html):
 
 - "Is it passed in from a parent via props? If so, it probably isn’t state.[^1]"
 - "Does it remain unchanged over time? If so, it probably isn’t state.[^1]"
 - "Can you compute it based on any other state or props in your component? If so, it isn’t state.[^1]"
+[^1]: [React Docs: Thinking in React](https://reactjs.org/docs/thinking-in-react.html)
+
+
 
 
 [^1]: [React Docs: Thinking in React](https://reactjs.org/docs/thinking-in-react.html)
