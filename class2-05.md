@@ -32,6 +32,9 @@ To determine if something is state, ask these three questions from [React Docs: 
 [^1]: [React Docs: Thinking in React](https://reactjs.org/docs/thinking-in-react.html)
 
 
+### How can you identify where state needs to live?
+
+By identifying what piece of data changes or needs to be updated. Examples would be input from forms, checkboxes, or text values from search bars. These data change over time and "can't be computed from anything [^1]".
 
 
 [^1]: [React Docs: Thinking in React](https://reactjs.org/docs/thinking-in-react.html)
