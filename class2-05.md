@@ -1,5 +1,7 @@
 # Reading Notes 05
 
+Ths topic shows us how breaking down the UI in component Hierarchy and figuring out which data needs state and where it needs to live can play an important role in building an app.
+
 ## React Docs - Thinking in React
 
 ### What is the single responsibility principle and how does it apply to components?
@@ -34,7 +36,7 @@ To determine if something is state, ask these three questions from [React Docs: 
 
 ### How can you identify where state needs to live?
 
-By identifying what piece of data changes or needs to be updated. Examples include input from forms, checkboxes, or text values from search bars. These data change over time and "can't be computed from anything [^1]".
+By identifying what piece of data changes or needs to be updated. Examples include input from forms, checkboxes, or text values from search bars. These data change over time and "can't be computed from anything [^1]". The state needs to live inside its parent/grandparents’ components that will be able to pass down the data whenever its child components need it.
 
 
 ## Higher-Order Functions
@@ -60,6 +62,7 @@ console.log(greaterThan10(11));
 
 ### Explain how either map or reduce operates, with regards to higher-order functions
 
+The *map()* returns a new array "by applying a function to all of its elements and building a new array from the returned values[^2]". It will have the same length as the original array, but its contents are now changed depending on the condition/code block of the function applied to it. The *reduce()* is mainly used to compute every single value of the array; it takes "a single element from the array and combines it with the current value [^2]".
 
 
 
