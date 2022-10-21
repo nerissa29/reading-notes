@@ -43,8 +43,22 @@ By identifying what piece of data changes or needs to be updated. Examples inclu
 The *higher-order function* are functions "that operate on other functions, either by taking them as arguments or by returning them [^2]". *Higher-order function* allows us to either create new functions or change other functions.
 
 
+### Explore the greaterThan function as defined in the reading. In your own words, what is line 2 of this function doing?
+
+The line 2 in the code sample below from [Higher-Order Functions](https://eloquentjavascript.net/05_higher_order.html#h_xxCc98lOBK) returns the value of the arrow function comparing if the value of m is greater than the value of n.
 
 
+```
+function greaterThan(n) {
+  return m => m > n;
+}
+let greaterThan10 = greaterThan(10);
+console.log(greaterThan10(11));
+// → true
+
+```
+
+### Explain how either map or reduce operates, with regards to higher-order functions
 
 
 
