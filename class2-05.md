@@ -34,9 +34,22 @@ To determine if something is state, ask these three questions from [React Docs: 
 
 ### How can you identify where state needs to live?
 
-By identifying what piece of data changes or needs to be updated. Examples would be input from forms, checkboxes, or text values from search bars. These data change over time and "can't be computed from anything [^1]".
+By identifying what piece of data changes or needs to be updated. Examples include input from forms, checkboxes, or text values from search bars. These data change over time and "can't be computed from anything [^1]".
+
+
+## Higher-Order Functions
+
+### What is a “higher-order function”?
+The *higher-order function* are functions "that operate on other functions, either by taking them as arguments or by returning them [^2]". *Higher-order function* allows us to either create new functions or change other functions.
+
+
+
+
+
+
 
 
 [^1]: [React Docs: Thinking in React](https://reactjs.org/docs/thinking-in-react.html)
+[^2]: [Higher-Order Functions](https://eloquentjavascript.net/05_higher_order.html#h_xxCc98lOBK)
 
 
