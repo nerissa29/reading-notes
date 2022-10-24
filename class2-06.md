@@ -56,6 +56,10 @@ It improves social skills, and one can learn from the other. Developers can diff
 
 Pair programming is where two developers work together; one is the driver, and the other is the navigator. The driver is the one who writes the code, while the navigator navigates and reviews the code as the driver types in. The two can switch roles here and there.
 
+## Things I want to know more about
+
+I like to learn about API, and the Web Request Response Cycle (WRRC)
+
 
 [^1]: [Node JS: About Node.js](https://nodejs.org/en/about/)
 [^2]: [JavaScript: What Is Node and When Should I Use It?](https://www.sitepoint.com/an-introduction-to-node-js/)
