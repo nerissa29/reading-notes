@@ -4,11 +4,11 @@
 
 ### What is node.js?
 
-According to the aticle Node JS: About Node.js, it is a "JavaScript runtime built on Chrome's V8 JavaS ript engine" [^1].
+According to the article Node JS: About Node.js, it is a "JavaScript runtime built on Chrome's V8 JavaS script engine" [^1].
 
 ### In your own words, what is Chrome’s V8 JavaScript Engine?
 
-Based on my understanding, after reading the article from [Hibbar (2020)](https://www.sitepoint.com/an-introduction-to-node-js/), the Chrome's V8 JavaScript engine is an engine that runs or executes JavaScript code. The V8 engine is the "open source JavaScript engine that runs in Google Chrome and other Chromium-based web browsers, including Brave, Opera, and Vivaldi [^2]". 
+Based on my understanding, after reading the article from [Hibbar (2020)](https://www.sitepoint.com/an-introduction-to-node-js/), Chrome's V8 JavaScript engine is an engine that runs or executes JavaScript code. The V8 engine is the "open source JavaScript engine that runs in Google Chrome and other Chromium-based web browsers, including Brave, Opera, and Vivaldi [^2]". 
 
 ### What does it mean that node is a JavaScript runtime?
 
@@ -18,9 +18,9 @@ It means that it built or compiles the JavaScript to machine code that the Opera
 
 NPM is a package manager that comes with Node;
 
-### What version of node are you running on your machine?
+### What version of a node are you running on your machine?
 
-My node version is v18.9.0
+My node version is v18.9.0.
 
 ### What version of npm are you running on your machine?
 
@@ -28,18 +28,18 @@ My npm version is 8.19.1
 
 ### What command would you type to install a library/package called ‘jshint’?
 
-According to [JavaScript: What Is Node and When Should I Use It?], to install the *jshint*, simply type *npm install -g jshint* on your terminal. The *jshint* can also be used to lint an index.js, for example, by typing *jshint index.js*; it is a tool that looks for JavaScript code errorrs and problems [3].
+According to [JavaScript: What Is Node and When Should I Use It?], to install the *jshint*, simply type *npm install -g jshint* on your terminal. The *jshint* can also be used to lint an index.js, for example, by typing *jshint index.js*; it is a tool that looks for JavaScript code errors and problems [3].
 
 
-### What is node used for?
+### What is a node used for?
 
-It allows the users/developers to write code in JavaScript, which is run by the computer/OS, instead of using or running it in a browser. There is also no need to to worry about the compatibility issues since it runs directly from the computer instead of the browser [^2].
+It allows the users/developers to write code in JavaScript, which is run by the computer/OS, instead of using or running it in a browser. There is also no need to worry about compatibility issues since it runs directly from the computer instead of the browser [^2].
 
 ## 6 Reasons for Pair Programming
 
-### What are the 6 reasons for pair programming?
+### What are the six reasons for pair programming?
 
-Grampa (2018), in her article *6 Reasons for Pair Programming*, staees the 6 reasons why pair programming is important [^4]:
+Grampa (2018), in her article *6 Reasons for Pair Programming*, states the six reasons why pair programming is necessary [^4]:
 
 - Greater efficiency
 - Engaged collaboration
@@ -50,7 +50,7 @@ Grampa (2018), in her article *6 Reasons for Pair Programming*, staees the 6 rea
 
 ### In your experience, which of these reasons have you found most beneficial?
 
-It improves social skills and one can learn from the other. Developers can differ both in coding style and personality, it pushes them to practice how to comunicate to each other and finding the right words or technical terms that both will understand. One who is more experienced on the topic can also help their partner who is less familiar on that topic.
+It improves social skills, and one can learn from the other. Developers can differ in coding style and personality; it pushes them to practice communicating with each other and find the right words or technical terms that both will understand. One who is more experienced on the topic can also help those less familiar with it.
 
 
 
