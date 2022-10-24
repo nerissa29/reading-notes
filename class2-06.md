@@ -1,6 +1,6 @@
 # Reading Notes 06
 
-## An Introduction to Node.js on sitepoint.com
+## An Introduction to Node.js
 
 ### What is node.js?
 
