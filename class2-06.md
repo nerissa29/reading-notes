@@ -52,6 +52,9 @@ Grampa (2018), in her article *6 Reasons for Pair Programming*, states the six r
 
 It improves social skills, and one can learn from the other. Developers can differ in coding style and personality; it pushes them to practice communicating with each other and find the right words or technical terms that both will understand. One who is more experienced on the topic can also help those less familiar with it.
 
+### How does pair programming work?
+
+Pair programming is where two developers work together; one is the driver, and the other is the navigator. The driver is the one who writes the code, while the navigator navigates and reviews the code as the driver types in. The two can switch roles here and there.
 
 
 [^1]: [Node JS: About Node.js](https://nodejs.org/en/about/)
