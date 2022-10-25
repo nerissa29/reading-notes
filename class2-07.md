@@ -30,6 +30,20 @@ According to MDN, the *PUT* method can create "a new resource or replaces a repr
 
 According to MDN, the *PATCH* request can apply "partial modifications to a resource [^5]". It contains instructions or information on how to make partial changes on the resource.
 
+### Request a personal API key from the following APIs. You should receive these in your email within a few hours, often within minutes. Please request these keys prior to lecture to allow adequate time because you will need them in order to complete your lab assignment. Note: do not post your API keys in the Canvas discussion or on GitHub. Save them in a secure place.
+
+Geocoding API
+Did you get your API key?  >>> yes
+
+Weather Bit API
+Did you get your API key?  >>> Yes
+
+Yelp API Docs
+Did you get your API key?   >>>> Not showing where to get
+
+The Movie DB API Docs 
+Did you get your API key?   >>>> Yes
+
 
 [^1]: [A Conversation about REST with my brother](https://gist.github.com/brookr/5977550)
 [^2]: [Roy Fielding stands on protocol](https://www.universityofcalifornia.edu/news/roy-fielding-stands-protocol#:~:text=%E2%80%9CI%20did%20not%20invent%20the,version%2C%20HTTP%2F1.1.%E2%80%9D)
