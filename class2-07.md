@@ -20,9 +20,19 @@ The *get method* is used to request data from the web resource [^3]. People ofte
 
 ### What does a POST do?
 
-The *POST* method is useed to "send data to a server to create/update a resource" [^3].
+The *POST* method is useed to "send data to a server to create/update a resource" [^3]. Tha data sent over this is stored in the HTTP request body.
+
+### What does PUT do?
+
+According to MDN, the *PUT* method can create "a new resource or replaces a representation of the target resource with the request payload [^4]. It means that if the resource target does not have a represebtation, the the *PUT* method can successfully create one, but must inform the user by sending the HTTP code 201 which means *ok or successful*.
+
+### What does PATCH do?
+
+According to MDN, the *PATCH* request can apply "partial modifications to a resource [^5]". It contains instructions or information on how to make partial changes on the resource.
 
 
 [^1]: [A Conversation about REST with my brother](https://gist.github.com/brookr/5977550)
 [^2]: [Roy Fielding stands on protocol](https://www.universityofcalifornia.edu/news/roy-fielding-stands-protocol#:~:text=%E2%80%9CI%20did%20not%20invent%20the,version%2C%20HTTP%2F1.1.%E2%80%9D)
 [^3]: [HTTP Request Methods](https://www.w3schools.com/tags/ref_httpmethods.asp)
+[^4]: [MDN Docs: HTTP PUT](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/PUT)
+[^5]: [MDN Docs: HTTP PATCH](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/PATCH)
