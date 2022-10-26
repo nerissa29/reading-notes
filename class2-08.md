@@ -24,7 +24,7 @@ The article [RESTful web API design](https://learn.microsoft.com/en-us/azure/arc
 
 ### Give an example of a good URI.
 
-*"http://api.canvas.com/shapes"*[^2]
+*"http://api.canvas.com/shapes [^2]"*.
 
 According to the article [RESTful web API design](https://learn.microsoft.com/en-us/azure/architecture/best-practices/api-design#what-is-rest), there shouldn't be trailing '/' in URIs; it must be only used to indicate the hierarchical relationship. Hyphens are used to improve the URIs readability, while underscores should not be used. The URI paths should be in lowercase letters, as preferred, and no file extensions should be included [^2].
 
