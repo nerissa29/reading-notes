@@ -46,7 +46,7 @@ If *POST method* succesfully creates a new resource, a status code 201 *Created*
 
 ### What status code does a successful DELETE request return?
 
-
+A successful *DELETE method* returns a status code 204 *No Content*, which indicates that the process is successful and that the response body does not have the data aymore [^1].
 
 
 
