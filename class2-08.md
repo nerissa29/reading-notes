@@ -38,7 +38,7 @@ The GET is used to retrieve data/resource specified at URI. The response message
 
 ### What status code does an unsuccessful GET request return?
 
-According to the article [^1]: [RESTful web API design](https://learn.microsoft.com/en-us/azure/architecture/best-practices/api-design#what-is-rest), it returns status code 404, which is a *Not Found*. If the request is fulfilled, but no contents to return, status code 204 *No Content* must be return [^1].
+According to the article [RESTful web API design](https://learn.microsoft.com/en-us/azure/architecture/best-practices/api-design#what-is-rest), it returns status code 404, which is a *Not Found*. If the request is fulfilled, but no contents to return, status code 204 *No Content* must be return [^1].
 
 ### What status code does a successful POST request return?
 
