@@ -28,6 +28,26 @@ The article [RESTful web API design](https://learn.microsoft.com/en-us/azure/arc
 
 Accoring to the article [RESTful web API design](https://learn.microsoft.com/en-us/azure/architecture/best-practices/api-design#what-is-rest), there shouldn't be trailing '/' in URIs, it must be only used to indicate the hierarchical relationship. Hyphens are used to imporove the URIs readability, while underscores should not be used. The URI paths should be in lowercase letters, as preferred, and no file extensions included [^2].
 
+### What does it mean to have a ‘chatty’ web API? Is this a good or a bad thing?
+
+Chatty web APIs can "expose a large number of small resources [^1]". It might require multiple requests/calls to find data, combining it into bigger resources which  can be done in single request. These multiple requests migt slow down the app.
+
+### What status code does a successful GET request return?
+
+The GET is used to retrieve data/resource specified at URI. The response message "contains the details of the requested resource [^1]".
+
+### What status code does an unsuccessful GET request return?
+
+According to the article [^1]: [RESTful web API design](https://learn.microsoft.com/en-us/azure/architecture/best-practices/api-design#what-is-rest), it returns status code 404, which is a *Not Found*. If the request is fulfilled, but no contents to return, status code 204 *No Content* must be return [^1].
+
+### What status code does a successful POST request return?
+
+If *POST method* succesfully creates a new resource, a status code 201 *Created* is returned. In the location header of the response, the "URI of the new resource is included [^1]".
+
+### What status code does a successful DELETE request return?
+
+
+
 
 
 [^1]: [RESTful web API design](https://learn.microsoft.com/en-us/azure/architecture/best-practices/api-design#what-is-rest)
