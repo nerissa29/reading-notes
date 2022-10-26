@@ -1,1 +1,34 @@
+## Reading 08
 
+## API Design Best Practices
+
+### What does REST stand for?
+
+REST stands for Representational State Transfer; It is an architectural approach in desing web pes [^1]. It was proposed by Roy Fielding in 2000. REST is not tied to HTTP, but most of its implementations use HTTP as the application protocol [^1].
+
+### REST APIs are designed around a ____.
+
+REST APIs are designed around resources.
+
+### What is an identifier of a resource? Give an example.
+
+According to the document [RESTful web API design](https://learn.microsoft.com/en-us/azure/architecture/best-practices/api-design#what-is-rest), the resource identifier is known as *URI*. It uniqely identifies the resource.
+
+### What are the most common HTTP verbs?
+
+*GET, POST, PUT, PATCH, and DELETE* are the most common HTTP verbs. These verbs are used to "perform operations on resources [^1]".
+
+### What should the URIs be based on?
+
+The article [RESTful web API design](https://learn.microsoft.com/en-us/azure/architecture/best-practices/api-design#what-is-rest) states that the URIs should be based on the resource (or nouns), instead of verbs (or the operations).
+
+### Give an example of a good URI.
+
+*"http://api.canvas.com/shapes"*[^2]
+
+Accoring to the article [RESTful web API design](https://learn.microsoft.com/en-us/azure/architecture/best-practices/api-design#what-is-rest), there shouldn't be trailing '/' in URIs, it must be only used to indicate the hierarchical relationship. Hyphens are used to imporove the URIs readability, while underscores should not be used. The URI paths should be in lowercase letters, as preferred, and no file extensions included [^2].
+
+
+
+[^1]: [RESTful web API design](https://learn.microsoft.com/en-us/azure/architecture/best-practices/api-design#what-is-rest)
+[^2]: [7 Rules for REST API URI Design](https://blog.restcase.com/7-rules-for-rest-api-uri-design/)
