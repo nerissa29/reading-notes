@@ -32,7 +32,7 @@ Hi Everyone, my name is ***Nerissa Leynes***; I am **nervous _and_ excited** at 
 - [Reading Notes 5](class2-05.md)
 - [Reading Notes 6](class2-06.md)
 - [Reading Notes 7](class2-07.md)
-- [Reading Notes 8](.md)
+- [Reading Notes 8](class2-08.md)
 - [Reading Notes 9](.md)
 - [Reading Notes 10](.md)
 - [Reading Notes 11](.md)
