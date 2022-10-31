@@ -35,6 +35,10 @@ Immutability means that the data cannot change its after it's created [^2]. When
 
 If an expression is referentially transparet, then it can be replaced with its value - or vice, modifying the program/system's behavior.
 
+## Node JS Tutorial for Beginners #6 - Modules and require()
+
+### What is a module?
+
 
 [^1]: [Wikipedia: Functional programming](https://en.wikipedia.org/wiki/Functional_programming)
 [^2]: [Medium: Concepts of Functional Programming in Javascript](https://medium.com/the-renaissance-developer/concepts-of-functional-programming-in-javascript-6bc84220d2aa)
