@@ -25,6 +25,17 @@ The benefis of Pure Function according to [Medium: Concepts of Functional Progra
   - "Given a parameter A → expect the function to return value B [^2]"
   - "Given a parameter C → expect the function to return value D [^2]"
 
+### What is immutability?
+
+Immutability means that the data cannot change its after it's created [^2]. When data is ummutable, you cannot change it, howeever, one can create a new object with a new value [^2]. 
+
+### What is Referential transparency?
+
+*'pure functions + immutable data = referential transparency'* - [Medium: Concepts of Functional Programming in Javascript](https://medium.com/the-renaissance-developer/concepts-of-functional-programming-in-javascript-6bc84220d2aa)
+
+If an expression is referentially transparet, then it can be replaced with its value - or vice, modifying the program/system's behavior.
+
+
 [^1]: [Wikipedia: Functional programming](https://en.wikipedia.org/wiki/Functional_programming)
 [^2]: [Medium: Concepts of Functional Programming in Javascript](https://medium.com/the-renaissance-developer/concepts-of-functional-programming-in-javascript-6bc84220d2aa)
 
