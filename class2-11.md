@@ -84,10 +84,13 @@ NoSQL are document based, it stores data as key-value pairs, graph databases (or
 
 ### What is inside of a MongoDB database?
 
+MOngoDB is a database that stores one or more document collections. It "stores data records as documents", gathered together as documents [^5].
+
 
 
 [^1]; [SQL vs NoSQL Database Differences Explained with few Example DB](https://www.thegeekstuff.com/2014/01/sql-vs-nosql-db/?utm_source=tuicool) 
 [^2]: [When to Use a NoSQL Database](https://www.mongodb.com/nosql-explained/when-to-use-nosql#:~:text=The%20structure%20of%20many%20different,unstructured%20data%20in%20one%20database.)
 [^3] [SQL vs NoSQL or MySQL vs MongoDB](https://www.youtube.com/watch?v=ZS_kXvOeQ5Y)
 [^4]: [What is a Relational Database (RDBMS)?](https://www.oracle.com/database/what-is-a-relational-database/)
+[^5]: [Databases and Collections](https://www.mongodb.com/docs/manual/core/databases-and-collections/#:~:text=MongoDB%20stores%20data%20records%20as,or%20more%20collections%20of%20documents.)
 
