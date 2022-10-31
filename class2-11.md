@@ -4,7 +4,7 @@
 
 ### Fill in the chart below with five differences between SQL and NoSQL databases:
 
-***SQL***
+***SQL***, as explained through the article [^1]; [SQL vs NoSQL Database Differences Explained with few Example DB](https://www.thegeekstuff.com/2014/01/sql-vs-nosql-db/?utm_source=tuicool) 
 
 - known as RElational Database (RDBMS)
 - is a table-based database; it represent data in form of tables
@@ -13,7 +13,7 @@
 - are vertically scalable, increases the horse-power of the hardware
 
 
-***NoSQL***
+***NoSQL***, as explained through the article [^1]; [SQL vs NoSQL Database Differenc
 
 - known as non-relational database
 - are document based, key-value pairs, graph databases (or wide-column stores)
@@ -69,6 +69,20 @@ SQL stands for *Structured Query Language*.
 
 A relational database is a database that supports the SQL language [^4]. It is a database that "stores and provides access to data points that are related to one another [^4]". The data is stored and distributed across are then connected through relations; the sql can query these relations through some commands (ex. join) which can rerieve these connected data [^4].
 
+
+### What type of structure does a relational database work with?
+
+The relational databse supports data structures like forms, table data, data views and indexes. It supoorts logical data structures [^4]. It organizes and provids access to data points which makes it easier to access.
+
+### What is a ‘schema’?
+
+The *schema* refers to as a database organization or structure.
+
+### What is a NoSQL database? How does it work?
+
+NoSQL are document based, it stores data as key-value pairs, graph databases (or wide-column stores) [^1]. It is best fit for hierarchical data storage.
+
+### What is inside of a MongoDB database?
 
 
 
