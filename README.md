@@ -36,7 +36,7 @@ Hi Everyone, my name is ***Nerissa Leynes***; I am **nervous _and_ excited** at 
 - [Reading Notes 9](.md)
 - [Reading Notes 10](.md)
 - [Reading Notes 11](class2-11.md)
-- [Reading Notes 12](.md)
+- [Reading Notes 12](class2-12.md)
 - [Reading Notes 13](.md)
 - [Reading Notes 14](.md)
 - [Reading Notes 15](.md)
