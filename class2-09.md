@@ -39,6 +39,8 @@ If an expression is referentially transparet, then it can be replaced with its v
 
 ### What is a module?
 
+A module is a file containing related codes. According
+
 
 [^1]: [Wikipedia: Functional programming](https://en.wikipedia.org/wiki/Functional_programming)
 [^2]: [Medium: Concepts of Functional Programming in Javascript](https://medium.com/the-renaissance-developer/concepts-of-functional-programming-in-javascript-6bc84220d2aa)
