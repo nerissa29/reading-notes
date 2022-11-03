@@ -39,7 +39,18 @@ If an expression is referentially transparet, then it can be replaced with its v
 
 ### What is a module?
 
-A module is a file containing related codes. According
+A module is a file containing related codes.
+
+#### What does the word ‘require’ do?
+
+The *require()* is a NodeJS built-in statement that reads and executes the JavaScript file/modules, and returns the exported object.
+
+#### How do we bring another module into the file the we are working in?
+
+we first need to export the component from its file (file A), then import it to another file (file B) as *import Book from './file-path.name'*. We then now can use the imported component into our file B.
+
+#### What do we have to do to make a module available?
+
 
 
 [^1]: [Wikipedia: Functional programming](https://en.wikipedia.org/wiki/Functional_programming)
