@@ -36,8 +36,15 @@ OpenID is one of the security tehnologies that has same concept as OAuth. It is 
 
 ## Authorization and Authentication flows
 
+#### What is the difference between authorization and authentication?
+
+Authentication verifies the user (who the user is) while the authorization verifies what access they have or allowed [^3].
+
+#### What is Authorization Code Flow?
 
   
 
 [^1]: [What is OAuth? How the open authorization framework works](https://www.csoonline.com/article/3216404/what-is-oauth-how-the-open-authorization-framework-works.html)
+[^2]: [Auth0 Docs: Authentication and Authorization Flows](https://auth0.com/docs/get-started/authentication-and-authorization-flow)
+[^3]: [Auth0  Docs: Authentication vs. Authorization](https://auth0.com/docs/get-started/identity-fundamentals/authentication-and-authorization)
 
