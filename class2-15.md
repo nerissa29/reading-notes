@@ -29,6 +29,13 @@ The CSO Online explained in their article [What is OAuth? How the open authoriza
 - The user sees a successfully completed transaction occurring.
 - OAuth is not the first authentication/authorization system to work this way on behalf of the end-user. In fact, many authentication systems, notably Kerberos, work similarly. What is special about OAuth is its ability to work across the web and its wide adoption. It succeeded with adoption rates where previous attempts failed (for various reasons). 
 
+#### What is OpenID?
+
+OpenID is one of the security tehnologies that has same concept as OAuth. It is a single sign-in, cehcking or vouching for user's idntities. It started in 2005, but reinvented in 2014 to as an *authentication layer for OAuth*; both "technologies now complement each other in many implementations" - [^1]: [What is OAuth? How the open authorization framework works](https://www.csoonline.com/article/3216404/what-is-oauth-how-the-open-authorization-framework-works.html).
+
+
+## Authorization and Authentication flows
+
 
   
 
