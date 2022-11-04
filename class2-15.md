@@ -6,15 +6,15 @@
 
 OAuth is an *open-standard authorization* protocol that allows websites to share resources or assets among users [^1]. 
 
-  It *describes how unrelated servers and services can safely allow authenticated access to their assets without actually sharing the initial, related, single logon credential [^1]*. It is also known as secure third-party.
+  It *”describes how unrelated servers and services can safely allow authenticated access to their assets without sharing the initial, related, single logon credential [^1]”*. It is also known as a secure third-party.
   
 #### Give an example of what using OAuth would look like.
 
-An example would be a website having one or more ways of logging in, uses another website to authenticate, and once done, the website you are trying to connect/log in will log you in uisng the permission gained from the other website. Some DOD website, like benefits or other VA websites uses this idea. 
+An example would be a website having one or more ways of logging in, using another website to authenticate, and once done, the website you are trying to connect/login to will log you in using the permission gained from the other website. Some DOD websites, like benefits or other VA websites, use this idea. 
 
 #### How does OAuth work? What are the steps that it takes to authenticate the user?
 
-The CSO Online explained in their article [What is OAuth? How the open authorization framework works](https://www.csoonline.com/article/3216404/what-is-oauth-how-the-open-authorization-framework-works.html) how Oauth works. Below are the steps they mentioned:
+The CSO Online explained in their article [What is OAuth? How the open authorization framework works](https://www.csoonline.com/article/3216404/what-is-oauth-how-the-open-authorization-framework-works.html) how OAuth works. Below are the steps they mentioned:
 
 - The first website connects to the second website on behalf of the user, using OAuth, providing the user’s verified identity.
 - The second site generates a one-time token and a one-time secret unique to the transaction and parties involved.
@@ -27,18 +27,18 @@ The CSO Online explained in their article [What is OAuth? How the open authoriza
 - The first website gives the access token to the second website as proof of authentication on behalf of the user.
 - The second website lets the first website access their site on behalf of the user.
 - The user sees a successfully completed transaction occurring.
-- OAuth is not the first authentication/authorization system to work this way on behalf of the end-user. In fact, many authentication systems, notably Kerberos, work similarly. What is special about OAuth is its ability to work across the web and its wide adoption. It succeeded with adoption rates where previous attempts failed (for various reasons). 
+- OAuth is not the first authentication/authorization system to work this way on behalf of the end-user. Many authentication systems, notably Kerberos, work similarly. What is special about OAuth is its ability to work across the web and its wide adoption. It succeeded with adoption rates where previous attempts failed (for various reasons). 
 
 #### What is OpenID?
 
-OpenID is one of the security tehnologies that has same concept as OAuth. It is a single sign-in, cehcking or vouching for user's idntities. It started in 2005, but reinvented in 2014 to as an *authentication layer for OAuth*; both "technologies now complement each other in many implementations" - [^1]: [What is OAuth? How the open authorization framework works](https://www.csoonline.com/article/3216404/what-is-oauth-how-the-open-authorization-framework-works.html).
+OpenID is one of the security technologies that has the same concept as OAuth. It is a single sign-in, checking, or vouching for users’ identities. It started in 2005 but was reinvented in 2014 as an *authentication layer for OAuth*; both "technologies now complement each other in many implementations" - [^1]: [What is OAuth? How the open authorization framework works](https://www.csoonline.com/article/3216404/what-is-oauth-how-the-open-authorization-framework-works.html).
 
 
 ## Authorization and Authentication flows
 
 #### What is the difference between authorization and authentication?
 
-Authentication verifies the user (who the user is) while the authorization verifies what access they have or allowed [^3].
+Authentication verifies the user (who the user is), while authorization verifies what access they have or are allowed [^3].
 
 #### What is Authorization Code Flow?
 
@@ -60,11 +60,11 @@ The image and steps below are from: [Auth0 Docs: Authorization Code Flow](https:
 
 #### What is Authorization Code Flow with Proof Key for Code Exchange (PKCE)
 
-Mobile applications can use the *Authorization Code Flow* during autentication but with additional security. The *OAuth 2.0* provdes *Authorization Code Flow version* that uses Proof of Key for Code Exachange or known as PKCE [^2]. 
+Mobile applications can use the *Authorization Code Flow* during authentication but with additional security. The *OAuth 2.0* provides an *Authorization Code Flow version* that uses Proof of Key for Code Exchange or PKCE [^2]. 
 
 #### What is Implicit Flow with Form Post?
 
-The *Implicit Flow with Form Post*, rovided by OAuth 2.0, is an alternative to th *Authorization Code Flow* [^2]. This is intended for Public Clients, or applications that are unable to secure Client Secrets securely [^2].
+The *Implicit Flow with Form Post*, provided by OAuth 2.0, is an alternative to the *Authorization Code Flow* [^2]. This is intended for Public Clients or applications that cannot secure Client Secrets [^2].
 
 #### What is Client Credentials Flow?
 
@@ -73,11 +73,11 @@ In *Client Credentials Flow*, the M2M or machine-to-machine application, uses th
 
 #### What is Device Authorization Flow?
 
-In the *Device Authorization Flow*, the device asks the user to authorize the device by asking the user to go to the link thourgh their smartphones/computers, and do the authorization there. - - [^2]: [Auth0 Docs: Authentication and Authorization Flows](https://auth0.com/docs/get-started/authentication-and-authorization-flow).
+In the *Device Authorization Flow*, the device asks the user to authorize the device by asking the user to go to the link through their smartphones/computers and do the authorization there. - - [^2]: [Auth0 Docs: Authentication and Authorization Flows](https://auth0.com/docs/get-started/authentication-and-authorization-flow).
 
 #### What is Resource Owner Password Flow?
 
-The *Resource Owner Password Flow* should only be used when the "redirect-based flows (like the Authorization Code Flow) cannot be used [^2]". It ass the users to provide credentials like username and password using an interactive form [^2].
+The *Resource Owner Password Flow* should only be used when the "redirect-based flows (like the Authorization Code Flow) cannot be used [^2]". It asks the users to provide credentials like username and password using an interactive form [^2].
 
 
 [^1]: [What is OAuth? How the open authorization framework works](https://www.csoonline.com/article/3216404/what-is-oauth-how-the-open-authorization-framework-works.html)
