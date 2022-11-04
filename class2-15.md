@@ -42,7 +42,7 @@ Authentication verifies the user (who the user is) while the authorization verif
 
 #### What is Authorization Code Flow?
 
-The image and steps below are from [^4]: [Auth0 Docs: Authorization Code Flow](https://auth0.com/docs/get-started/authentication-and-authorization-flow/authorization-code-flow), it shows the authorization code flow[^4]:
+The image and steps below are from: [Auth0 Docs: Authorization Code Flow](https://auth0.com/docs/get-started/authentication-and-authorization-flow/authorization-code-flow), it shows the authorization code flow[^4]:
 
 ![image](https://user-images.githubusercontent.com/113204667/200006609-e5668121-e3d7-4e7f-91bb-aa9f6241d69b.png)
 
@@ -58,7 +58,27 @@ The image and steps below are from [^4]: [Auth0 Docs: Authorization Code Flow](h
 - The API responds with requested data
 
 
-  
+#### What is Authorization Code Flow with Proof Key for Code Exchange (PKCE)
+
+Mobile applications can use the *Authorization Code Flow* during autentication but with additional security. The *OAuth 2.0* provdes *Authorization Code Flow version* that uses Proof of Key for Code Exachange or known as PKCE [^2]. 
+
+#### What is Implicit Flow with Form Post?
+
+The *Implicit Flow with Form Post*, rovided by OAuth 2.0, is an alternative to th *Authorization Code Flow* [^2]. This is intended for Public Clients, or applications that are unable to secure Client Secrets securely [^2].
+
+#### What is Client Credentials Flow?
+
+In *Client Credentials Flow*, the M2M or machine-to-machine application, uses the system to "authenticates and authorizes the app rather than a user" - [^2]: [Auth0 Docs: Authentication and Authorization Flows](https://auth0.com/docs/get-started/authentication-and-authorization-flow).
+
+
+#### What is Device Authorization Flow?
+
+In the *Device Authorization Flow*, the device asks the user to authorize the device by asking the user to go to the link thourgh their smartphones/computers, and do the authorization there. - - [^2]: [Auth0 Docs: Authentication and Authorization Flows](https://auth0.com/docs/get-started/authentication-and-authorization-flow).
+
+#### What is Resource Owner Password Flow?
+
+The *Resource Owner Password Flow* should only be used when the "redirect-based flows (like the Authorization Code Flow) cannot be used [^2]". It ass the users to provide credentials like username and password using an interactive form [^2].
+
 
 [^1]: [What is OAuth? How the open authorization framework works](https://www.csoonline.com/article/3216404/what-is-oauth-how-the-open-authorization-framework-works.html)
 [^2]: [Auth0 Docs: Authentication and Authorization Flows](https://auth0.com/docs/get-started/authentication-and-authorization-flow)
