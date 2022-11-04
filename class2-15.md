@@ -42,9 +42,26 @@ Authentication verifies the user (who the user is) while the authorization verif
 
 #### What is Authorization Code Flow?
 
+The image and steps below are from [^4]: [Auth0 Docs: Authorization Code Flow](https://auth0.com/docs/get-started/authentication-and-authorization-flow/authorization-code-flow), it shows the authorization code flow[^4]:
+
+![image](https://user-images.githubusercontent.com/113204667/200006609-e5668121-e3d7-4e7f-91bb-aa9f6241d69b.png)
+
+- The user clicks Login
+- Auth0's SDK redirects the user to the Auth0 Authorization Server (/authorize endpoint)
+- Your Auth0 Authorization Server redirects the user to the login and authorization prompt
+- The user authenticates using one of the configured login options and may see a consent page listing the permissions Auth0 will give to the regular web application
+- Your Auth0 Authorization Server redirects the user back to the application with an authorization code, which is good for one use
+- Auth0's SDK sends this code to the Auth0 Authorization Server (/oauth/token endpoint) along with the application's Client ID and Client Secret
+- Your Auth0 Authorization Server verifies the code, Client ID, and Client Secret
+- Your Auth0 Authorization Server responds with an ID Token and Access Token (and optionally, a Refresh Token
+- Your application can use the Access Token to call an API to access information about the user
+- The API responds with requested data
+
+
   
 
 [^1]: [What is OAuth? How the open authorization framework works](https://www.csoonline.com/article/3216404/what-is-oauth-how-the-open-authorization-framework-works.html)
 [^2]: [Auth0 Docs: Authentication and Authorization Flows](https://auth0.com/docs/get-started/authentication-and-authorization-flow)
 [^3]: [Auth0  Docs: Authentication vs. Authorization](https://auth0.com/docs/get-started/identity-fundamentals/authentication-and-authorization)
+[^4]: [Auth0 Docs: Authorization Code Flow](https://auth0.com/docs/get-started/authentication-and-authorization-flow/authorization-code-flow)
 
