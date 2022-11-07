@@ -59,13 +59,17 @@ Type errors occur when "the types (number, string and so on) you are trying to u
 
 #### What is a breakpoint?
 
-A breakpoit is achieved by placing "a debugger statement in your code in the line you want to break [^2]".
-[
-](https://miro.medium.com/max/1100/1*yhFA4njFS7JCRVZPzvDU-A.png)
+A breakpoit is achieved by placing "a debugger statement in your code in the line you want to break [^2]". An example is the image below, adapted from [JavaScript error messages && debugging](https://codeburst.io/javascript-error-messages-debugging-d23f84f0ae7c):
+
+<img width="537" alt="image" src="https://user-images.githubusercontent.com/113204667/200213400-6f8fc8da-5617-4b3c-81c6-b69a5f902ec7.png">
 
 
+#### What does the word ‘debugger’ do in your code?
+
+A debugger "stops the execution of JavaScript [^3]".
 
 
 [^1]: [The JavaScript Call Stack - What It Is and Why It's Necessary](https://www.freecodecamp.org/news/understanding-the-javascript-call-stack-861e41ae61d4)
 [^2]: [JavaScript error messages && debugging](https://codeburst.io/javascript-error-messages-debugging-d23f84f0ae7c)
+[^3]: [JavaScript Debugging](https://www.w3schools.com/js/js_debugging.asp#:~:text=The%20debugger%20keyword%20stops%20the,debugger%20statement%20has%20no%20effect.)
 
