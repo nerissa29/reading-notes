@@ -2,7 +2,7 @@
 
 ### SQL Lesson 1: SELECT queries 101
 
-**SELECT** is used to retirive data from SQL database[^1]. ***SELECT*** statements are often referred to as ***queries***.
+**SELECT** is used to retrieve data from SQL database[^1]. ***SELECT*** statements are often referred to as ***queries***.
 
 Example:
 
@@ -27,15 +27,15 @@ SELECT * FROM students
 
 ### SQL Lesson 2: Queries with constraints (Pt. 1)
 
-The **WHERE** clause is used to filter the data/results; it is "applied to each row of data by checking specific column values to determine whether it should be included in the results or not[^2]". 
+The **WHERE** clause filters the data/results; it is "applied to each row of data by checking specific column values to determine whether it should be included in the results or not[^2]". 
 
 The **AND** or **OR** can also be used to join more complex clauses.
 
-Below is a screenshot  of some useful operators from [SQL Lesson 2: Queries with constraints (Pt. 1)](https://sqlbolt.com/lesson/select_queries_with_constraints):
+Below is a screenshot of some useful operators from [SQL Lesson 2: Queries with constraints (Pt. 1)](https://sqlbolt.com/lesson/select_queries_with_constraints):
 
 <img width="559" alt="image" src="https://user-images.githubusercontent.com/113204667/207415484-5b127a14-026c-4f36-8b13-60255c385d4b.png">
 
-When there are hundreds or million rows of data, using clauses to constrain set of rows of data, enables the query to run faster[^2].
+When there are hundreds or millions of rows of data, using clauses to constrain a set of data enables the query to run faster[^2].
 
 ***Exercise 2:***
 
@@ -68,9 +68,13 @@ Below is the screenshot from [SQL Lesson 3: Queries with constraints (Pt. 2)](ht
 <img width="588" alt="image" src="https://user-images.githubusercontent.com/113204667/207420599-a5914c1f-c302-4950-8a88-cb92428e5bf7.png">
 
 
+### SQL Lesson 4: Filtering and sorting Query results
+
+
 
 References:
 [^1]: [SQL Lesson 1: SELECT queries 101](https://sqlbolt.com/lesson/select_queries_introduction)
 [^2]: [SQL Lesson 2: Queries with constraints (Pt. 1)](https://sqlbolt.com/lesson/select_queries_with_constraints)
 [^3]: [SQL Lesson 3: Queries with constraints (Pt. 2)](https://sqlbolt.com/lesson/select_queries_with_constraints_pt_2)
+[^4]: [SQL Lesson 4: Filtering and sorting Query results](https://sqlbolt.com/lesson/filtering_sorting_query_results)
 
