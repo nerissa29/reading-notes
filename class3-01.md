@@ -47,7 +47,26 @@ When there are hundreds or million rows of data, using clauses to constrain set 
 
 <img width="592" alt="image" src="https://user-images.githubusercontent.com/113204667/207417613-4113c39b-b21a-4266-b8b2-bed85123dc52.png">
 
+
 ### SQL Lesson 3: Queries with constraints (Pt. 2)
+
+Below is the screenshot from [SQL Lesson 3: Queries with constraints (Pt. 2)](https://sqlbolt.com/lesson/select_queries_with_constraints_pt_2), showing various useful operators that can be used in (a) string comparison, and (b) wildcard pattern matching[^3]:
+
+<img width="565" alt="image" src="https://user-images.githubusercontent.com/113204667/207418586-bdd5a74a-a870-454d-bb0f-fd836deb3c48.png">
+
+"*All strings must be quoted so that the query parser can distinguish words in the string from SQL keywords*[^3]"
+
+
+***Exercise 3:***
+
+<img width="591" alt="image" src="https://user-images.githubusercontent.com/113204667/207420097-c72c0e57-1c54-46f2-95bd-8e244473b5a1.png">
+
+<img width="587" alt="image" src="https://user-images.githubusercontent.com/113204667/207420319-f82c251f-bb67-4bfe-857d-b8a0f0b0368b.png">
+
+<img width="589" alt="image" src="https://user-images.githubusercontent.com/113204667/207420418-723c6934-57c3-42f1-8272-e08d902b7f12.png">
+
+<img width="588" alt="image" src="https://user-images.githubusercontent.com/113204667/207420599-a5914c1f-c302-4950-8a88-cb92428e5bf7.png">
+
 
 
 References:
