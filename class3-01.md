@@ -50,11 +50,11 @@ When there are hundreds or millions of rows of data, using clauses to constrain 
 
 ### SQL Lesson 3: Queries with constraints (Pt. 2)
 
-Below is the screenshot from [SQL Lesson 3: Queries with constraints (Pt. 2)](https://sqlbolt.com/lesson/select_queries_with_constraints_pt_2), showing various useful operators that can be used in (a) string comparison, and (b) wildcard pattern matching[^3]:
+Below is the screenshot from [SQL Lesson 3: Queries with constraints (Pt. 2)](https://sqlbolt.com/lesson/select_queries_with_constraints_pt_2), showing various useful operators that can be used in a (a) string comparison, and (b) wildcard pattern matching[^3]:
 
 <img width="565" alt="image" src="https://user-images.githubusercontent.com/113204667/207418586-bdd5a74a-a870-454d-bb0f-fd836deb3c48.png">
 
-"*All strings must be quoted so that the query parser can distinguish words in the string from SQL keywords*[^3]"
+"*All strings must be quoted so that the query parser can distinguish words in the string from SQL keywords*[^3]."
 
 
 ***Exercise 3:***
@@ -69,6 +69,46 @@ Below is the screenshot from [SQL Lesson 3: Queries with constraints (Pt. 2)](ht
 
 
 ### SQL Lesson 4: Filtering and sorting Query results
+
+The **DISTINCT** keyword is used to discard/remove rows with column values that are duplicates, while the **GROUP BY** clause is sued to discard duplicates on a specific column[^4].
+
+The **ORDER BY** clause is used to sort results "by a given column in ascending or descending order[^4]".
+
+An example from [SQL Lesson 4: Filtering and sorting Query results](https://sqlbolt.com/lesson/filtering_sorting_query_results):
+
+```
+Select query with ordered results
+SELECT column, another_column, …
+FROM mytable
+WHERE condition(s)
+ORDER BY column ASC/DESC;
+```
+Rows are sorted alpha-numerical based on the column's value when the clause **ORDER BY** is used. **LIMIT** and **OFFSET** are another clauses that can be used along with the **ORDER BY**. The **LIMIT** clause reduces the number of rows, while the **OFFSET** (optional) specifies where to start counting the number of rows from[^4].
+
+An example from [SQL Lesson 4: Filtering and sorting Query results](https://sqlbolt.com/lesson/filtering_sorting_query_results):
+
+```
+Select a query with limited rows
+SELECT column, another_column, …
+FROM mytable
+WHERE condition(s)
+ORDER BY column ASC/DESC
+LIMIT num_limit OFFSET num_offset;
+
+```
+
+***Exercise 4:***
+
+<img width="592" alt="image" src="https://user-images.githubusercontent.com/113204667/207427454-e9c691bf-c9f0-48c8-a452-4d09e59b4852.png">
+
+<img width="591" alt="image" src="https://user-images.githubusercontent.com/113204667/207428087-fd3a9c01-706d-45d8-b463-0d82ad1f5ce2.png">
+
+<img width="587" alt="image" src="https://user-images.githubusercontent.com/113204667/207428225-4bf41458-bc74-4bb7-b794-b878095299fa.png">
+
+<img width="587" alt="image" src="https://user-images.githubusercontent.com/113204667/207428488-e92fe503-4b11-4477-9621-87b29ed66e2f.png">
+
+
+### SQL Review: Simple SELECT Queries
 
 
 
