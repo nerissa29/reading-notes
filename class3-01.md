@@ -27,11 +27,31 @@ SELECT * FROM students
 
 ### SQL Lesson 2: Queries with constraints (Pt. 1)
 
+The **WHERE** clause is used to filter the data/results; it is "applied to each row of data by checking specific column values to determine whether it should be included in the results or not[^2]". 
 
+The **AND** or **OR** can also be used to join more complex clauses.
 
+Below is a screenshot  of some useful operators from [SQL Lesson 2: Queries with constraints (Pt. 1)](https://sqlbolt.com/lesson/select_queries_with_constraints):
+
+<img width="559" alt="image" src="https://user-images.githubusercontent.com/113204667/207415484-5b127a14-026c-4f36-8b13-60255c385d4b.png">
+
+When there are hundreds or million rows of data, using clauses to constrain set of rows of data, enables the query to run faster[^2].
+
+***Exercise 2:***
+
+<img width="588" alt="image" src="https://user-images.githubusercontent.com/113204667/207416693-9de6daab-f8d5-429d-8c05-948b59e6409c.png">
+
+<img width="593" alt="image" src="https://user-images.githubusercontent.com/113204667/207416948-2c266662-979d-4feb-ba1f-fec76ce8bea3.png">
+
+<img width="591" alt="image" src="https://user-images.githubusercontent.com/113204667/207417191-dbb4f70e-cce7-40ca-a5f3-4d50adf4905b.png">
+
+<img width="592" alt="image" src="https://user-images.githubusercontent.com/113204667/207417613-4113c39b-b21a-4266-b8b2-bed85123dc52.png">
+
+### SQL Lesson 3: Queries with constraints (Pt. 2)
 
 
 References:
 [^1]: [SQL Lesson 1: SELECT queries 101](https://sqlbolt.com/lesson/select_queries_introduction)
 [^2]: [SQL Lesson 2: Queries with constraints (Pt. 1)](https://sqlbolt.com/lesson/select_queries_with_constraints)
+[^3]: [SQL Lesson 3: Queries with constraints (Pt. 2)](https://sqlbolt.com/lesson/select_queries_with_constraints_pt_2)
 
