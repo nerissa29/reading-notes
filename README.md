@@ -44,7 +44,7 @@ Hi Everyone, my name is ***Nerissa Leynes***; I am **nervous _and_ excited** at 
 
 ## Code 401 - Advanced Software Development
 
-### **Table of Contents: Code 301**
+### **Table of Contents: Code 401**
 - [Reading Notes 1](.md)
 - [Reading Notes 2](.md)
 - [Reading Notes 3](.md)
