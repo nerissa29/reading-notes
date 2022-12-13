@@ -110,6 +110,18 @@ LIMIT num_limit OFFSET num_offset;
 
 ### SQL Review: Simple SELECT Queries
 
+***Reiew 1:***
+
+<img width="588" alt="image" src="https://user-images.githubusercontent.com/113204667/207432735-278f2cef-4d0a-44b5-8114-e71844a708b8.png">
+
+<img width="589" alt="image" src="https://user-images.githubusercontent.com/113204667/207433148-9846da14-72cc-4096-aaef-e9ecd766142b.png">
+
+<img width="561" alt="image" src="https://user-images.githubusercontent.com/113204667/207434385-44720e6e-34da-43e9-82d6-f218446e2921.png">
+
+<img width="591" alt="image" src="https://user-images.githubusercontent.com/113204667/207434928-ce60c039-01a7-42d8-9b74-de515f135457.png">
+
+<img width="590" alt="image" src="https://user-images.githubusercontent.com/113204667/207435527-f5371387-f42a-4a01-b427-b23965e2a6c0.png">
+
 
 
 References:
