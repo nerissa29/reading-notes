@@ -202,7 +202,7 @@ The **WHERE** clause is necessary as it states the condition or where to apply t
 
 ### SQL Lesson 15: Deleting rows
 
-A **DELETE** statement is used when needed to delete rows; the delete statement goes like tis:  **DELETE FROM** *table_name* **WHERE** *condition*[^8], as shown below.
+A **DELETE** statement is used when needed to delete rows; the delete statement goes like this:  **DELETE FROM** *table_name* **WHERE** *condition*[^8], as shown below.
 
 An example from [SQL Lesson 15: Deleting rows](https://sqlbolt.com/lesson/deleting_rows):
 
@@ -213,7 +213,33 @@ WHERE condition;
 
 ```
 
-Without the **WHERE** clause, all rows will be be deleted, it is why the **WHERE** clause is important to both UPDATE and DELETE statement. It is advised to always double check the DELETE statement before executing it.
+Without the **WHERE** clause, all rows will be deleted; it is why the **WHERE** clause is important to both the UPDATE and DELETE statements. It is advised to always double-check the DELETE statement before executing it.
+
+
+***Exercise 15:***
+
+<img width="588" alt="image" src="https://user-images.githubusercontent.com/113204667/207720657-c25e9e4e-4f3a-46d8-b697-579c750964a3.png">
+
+<img width="591" alt="image" src="https://user-images.githubusercontent.com/113204667/207720975-2bbb2422-1ec6-4aad-a77b-bb3c428e029d.png">
+
+
+### SQL Lesson 16: Creating tables
+
+The **CREATE TABLE** statement is used to create new database - new entities and new relationships[^9].
+
+An example below is provided from [SQL Lesson 16: Creating tables](https://sqlbolt.com/lesson/creating_tables):
+
+```
+Create table statement w/ optional table constraint and default value
+CREATE TABLE IF NOT EXISTS mytable (
+    column DataType TableConstraint DEFAULT default_value,
+    another_column DataType TableConstraint DEFAULT default_value,
+    …
+);
+
+```
+
+The new table's structure is defined by its **table schema**, which defines its columns, including its name, data type, and constraint if needed[^9].
 
 
 References:
@@ -225,5 +251,8 @@ References:
 [^6]: [SQL Lesson 13: Inserting rows](https://sqlbolt.com/lesson/inserting_rows)
 [^7]: [SQL Lesson 14: Updating rows](https://sqlbolt.com/lesson/updating_rows)
 [^8]: [SQL Lesson 15: Deleting rows](https://sqlbolt.com/lesson/deleting_rows)
+[^9]: [SQL Lesson 16: Creating tables](https://sqlbolt.com/lesson/creating_tables)
+
+
 
 
