@@ -83,7 +83,7 @@ FROM mytable
 WHERE condition(s)
 ORDER BY column ASC/DESC;
 ```
-Rows are sorted alpha-numerical based on the column's value when the clause **ORDER BY** is used. **LIMIT** and **OFFSET** are another clauses that can be used along with the **ORDER BY**. The **LIMIT** clause reduces the number of rows, while the **OFFSET** (optional) specifies where to start counting the number of rows from[^4].
+Rows are sorted alpha-numerical based on the column's value when the clause **ORDER BY** is used. **LIMIT** and **OFFSET** are other clauses that can be used along with the **ORDER BY**. The **LIMIT** clause reduces the number of rows, while the **OFFSET** (optional) specifies where to start counting the number of rows from[^4].
 
 An example from [SQL Lesson 4: Filtering and sorting Query results](https://sqlbolt.com/lesson/filtering_sorting_query_results):
 
@@ -108,9 +108,9 @@ LIMIT num_limit OFFSET num_offset;
 <img width="587" alt="image" src="https://user-images.githubusercontent.com/113204667/207428488-e92fe503-4b11-4477-9621-87b29ed66e2f.png">
 
 
-### SQL Review: Simple SELECT Queries
+### SQL Lesson 5 (SQL Review): Simple SELECT Queries
 
-***Reiew 1:***
+***Review 1:***
 
 <img width="588" alt="image" src="https://user-images.githubusercontent.com/113204667/207432735-278f2cef-4d0a-44b5-8114-e71844a708b8.png">
 
@@ -118,10 +118,16 @@ LIMIT num_limit OFFSET num_offset;
 
 <img width="561" alt="image" src="https://user-images.githubusercontent.com/113204667/207434385-44720e6e-34da-43e9-82d6-f218446e2921.png">
 
-<img width="591" alt="image" src="https://user-images.githubusercontent.com/113204667/207434928-ce60c039-01a7-42d8-9b74-de515f135457.png">
+<img width="591" alt="imagez" src="https://user-images.githubusercontent.com/113204667/207434928-ce60c039-01a7-42d8-9b74-de515f135457.png">
 
 <img width="590" alt="image" src="https://user-images.githubusercontent.com/113204667/207435527-f5371387-f42a-4a01-b427-b23965e2a6c0.png">
 
+
+### SQL Lesson 6: Multi-table queries with JOINs
+
+A *primary key* is needed to uniquely identify the data across the database; a primary key can be a string or hashed value, but it can also be an auto-incrementing integer[^5]. Combining the data from different parts of the database is possible using the **JOIN** clause. The *JOIN* clause combines data in a row "across two separate tables using this unique key[^5]".
+
+The **INNER JOIN** is one of the JOIN clauses; it " is a process that matches rows from the first table and the second table which have the same key (as defined by the ON constraint) to create a result row with the combined columns from both tables", as stated in [SQL Lesson 6: Multi-table queries with JOINs](https://sqlbolt.com/lesson/select_queries_with_joins). Once they're joined, other clauses learned can be used to query data to return the information needed.
 
 
 References:
@@ -129,4 +135,5 @@ References:
 [^2]: [SQL Lesson 2: Queries with constraints (Pt. 1)](https://sqlbolt.com/lesson/select_queries_with_constraints)
 [^3]: [SQL Lesson 3: Queries with constraints (Pt. 2)](https://sqlbolt.com/lesson/select_queries_with_constraints_pt_2)
 [^4]: [SQL Lesson 4: Filtering and sorting Query results](https://sqlbolt.com/lesson/filtering_sorting_query_results)
+[^5]: [SQL Lesson 6: Multi-table queries with JOINs](https://sqlbolt.com/lesson/select_queries_with_joins)
 
