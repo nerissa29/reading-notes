@@ -130,6 +130,13 @@ A *primary key* is needed to uniquely identify the data across the database; a p
 The **INNER JOIN** is one of the JOIN clauses; it " is a process that matches rows from the first table and the second table which have the same key (as defined by the ON constraint) to create a result row with the combined columns from both tables", as stated in [SQL Lesson 6: Multi-table queries with JOINs](https://sqlbolt.com/lesson/select_queries_with_joins). Once they're joined, other clauses learned can be used to query data to return the information needed.
 
 
+***Exercise 6:***
+
+<img width="592" alt="image" src="https://user-images.githubusercontent.com/113204667/207688117-9dec16f0-6809-408f-acae-eae48b99f22e.png">
+
+<img width="593" alt="image" src="https://user-images.githubusercontent.com/113204667/207690027-682eb2c1-5588-4c12-8ecb-3a0d82ed7e65.png">
+
+
 References:
 [^1]: [SQL Lesson 1: SELECT queries 101](https://sqlbolt.com/lesson/select_queries_introduction)
 [^2]: [SQL Lesson 2: Queries with constraints (Pt. 1)](https://sqlbolt.com/lesson/select_queries_with_constraints)
