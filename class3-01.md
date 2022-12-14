@@ -178,6 +178,33 @@ The first example above allows to insert multiple rows by "listing them sequenti
 <img width="591" alt="image" src="https://user-images.githubusercontent.com/113204667/207701192-fd565b8c-2578-43d3-bcf0-581b4cd77bd6.png">
 
 
+### SQL Lesson 14: Updating rows
+
+Another common task in database management is updating the existing data. In updating rows, the **UPDATE** statement is used by specifying the table, columns, and rows that need update[^7]. Similar to INSERT, in UPDATe, the data "has to match the data type of the columns in the table schema", as stated in [SQL Lesson 14: Updating rows](https://sqlbolt.com/lesson/updating_rows).
+
+UPDATE statement example below from [SQL Lesson 14: Updating rows](https://sqlbolt.com/lesson/updating_rows):
+
+```
+Update statement with values
+UPDATE mytable
+SET column = value_or_expr, 
+    other_column = another_value_or_expr, 
+    …
+WHERE condition;
+
+```
+The **WHERE** clause is necessary as it states the condition or where to apply the update. It is a good practice to always "write the constraint first and test it in a SELECT query to make sure you are updating the right rows, and only then writing the column/value pairs to update[^7]".
+
+***Exercise 14:***
+
+<img width="595" alt="image" src="https://user-images.githubusercontent.com/113204667/207703576-3620d677-9254-4fc9-8dc9-5576723fe81b.png">
+
+<img width="588" alt="image" src="https://user-images.githubusercontent.com/113204667/207703936-9b764c01-8d86-4dd2-9bfe-16ddfe901654.png">
+
+<img width="591" alt="image" src="https://user-images.githubusercontent.com/113204667/207704539-514114e8-2819-45c0-858a-f23d1ca9cd63.png">
+
+
+
 
 References:
 [^1]: [SQL Lesson 1: SELECT queries 101](https://sqlbolt.com/lesson/select_queries_introduction)
@@ -186,5 +213,5 @@ References:
 [^4]: [SQL Lesson 4: Filtering and sorting Query results](https://sqlbolt.com/lesson/filtering_sorting_query_results)
 [^5]: [SQL Lesson 6: Multi-table queries with JOINs](https://sqlbolt.com/lesson/select_queries_with_joins)
 [^6]: [SQL Lesson 13: Inserting rows](https://sqlbolt.com/lesson/inserting_rows)
-
+[^7]: [SQL Lesson 14: Updating rows](https://sqlbolt.com/lesson/updating_rows)
 
