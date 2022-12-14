@@ -1,5 +1,7 @@
 ## Reading Notes: SQL and Relational Database
 
+## Lessons 1 through 6 - SQL Queries
+
 ### SQL Lesson 1: SELECT queries 101
 
 **SELECT** is used to retrieve data from SQL database[^1]. ***SELECT*** statements are often referred to as ***queries***.
@@ -136,6 +138,46 @@ The **INNER JOIN** is one of the JOIN clauses; it " is a process that matches ro
 
 <img width="593" alt="image" src="https://user-images.githubusercontent.com/113204667/207690027-682eb2c1-5588-4c12-8ecb-3a0d82ed7e65.png">
 
+<img width="588" alt="image" src="https://user-images.githubusercontent.com/113204667/207691219-e5a0ed3f-a89a-44b2-835c-7eb0a6b2c567.png">
+
+
+## Lessons 13 through 18 - Database Management
+
+### SQL Lesson 13: Inserting rows
+
+A "table in a database as a two-dimensional set of rows and columns, with the columns being the properties and the rows being instances of the entity in the table", as described from [SQL Lesson 13: Inserting rows](https://sqlbolt.com/lesson/inserting_rows), while the **database schema** describes the table structure, and the datatypes from it's column[^6].
+
+When inserting new data, **INSERT** stataement is used; it describes which table to write (ex. INSERT INTO movies)[^6]. When adding data into a database, row must contain values for each table column.
+
+Below are the examples provided from [SQL Lesson 13: Inserting rows](https://sqlbolt.com/lesson/inserting_rows):
+
+```
+Insert statement with values for all columns
+INSERT INTO mytable
+VALUES (value_or_expr, another_value_or_expr, …),
+       (value_or_expr_2, another_value_or_expr_2, …),
+       …;
+       
+```
+
+```
+Insert statement with specific columns
+INSERT INTO mytable
+(column, another_column, …)
+VALUES (value_or_expr, another_value_or_expr, …),
+      (value_or_expr_2, another_value_or_expr_2, …),
+      …;
+      
+```
+The first example above allows to insert multiple rows by "listing them sequentially[^6]", while the second example allows to insert data/rows "with only the columns of data you have by specifying them explicitly[^6]".
+
+***Exercise 13:***
+
+<img width="593" alt="image" src="https://user-images.githubusercontent.com/113204667/207700780-51ad11cf-1fea-4c3b-853a-b57c375b5f59.png">
+
+<img width="591" alt="image" src="https://user-images.githubusercontent.com/113204667/207701192-fd565b8c-2578-43d3-bcf0-581b4cd77bd6.png">
+
+
 
 References:
 [^1]: [SQL Lesson 1: SELECT queries 101](https://sqlbolt.com/lesson/select_queries_introduction)
@@ -143,4 +185,6 @@ References:
 [^3]: [SQL Lesson 3: Queries with constraints (Pt. 2)](https://sqlbolt.com/lesson/select_queries_with_constraints_pt_2)
 [^4]: [SQL Lesson 4: Filtering and sorting Query results](https://sqlbolt.com/lesson/filtering_sorting_query_results)
 [^5]: [SQL Lesson 6: Multi-table queries with JOINs](https://sqlbolt.com/lesson/select_queries_with_joins)
+[^6]: [SQL Lesson 13: Inserting rows](https://sqlbolt.com/lesson/inserting_rows)
+
 
