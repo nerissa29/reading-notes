@@ -1,7 +1,5 @@
 ## Reading Notes: SQL and Relational Database
 
-## Lessons 1 through 6 - SQL Queries
-
 ### SQL Lesson 1: SELECT queries 101
 
 **SELECT** is used to retrieve data from SQL database[^1]. ***SELECT*** statements are often referred to as ***queries***.
@@ -140,14 +138,13 @@ The **INNER JOIN** is one of the JOIN clauses; it " is a process that matches ro
 
 <img width="588" alt="image" src="https://user-images.githubusercontent.com/113204667/207691219-e5a0ed3f-a89a-44b2-835c-7eb0a6b2c567.png">
 
-
 ## Lessons 13 through 18 - Database Management
 
 ### SQL Lesson 13: Inserting rows
 
-A "table in a database as a two-dimensional set of rows and columns, with the columns being the properties and the rows being instances of the entity in the table", as described from [SQL Lesson 13: Inserting rows](https://sqlbolt.com/lesson/inserting_rows), while the **database schema** describes the table structure, and the datatypes from it's column[^6].
+A "table in a database is a two-dimensional set of rows and columns, with the columns being the properties and the rows being instances of the entity in the table", as described from [SQL Lesson 13: Inserting rows](https://sqlbolt.com/lesson/inserting_rows), while the **database schema** describes the table structure and the datatypes from its column[^6].
 
-When inserting new data, **INSERT** stataement is used; it describes which table to write (ex. INSERT INTO movies)[^6]. When adding data into a database, row must contain values for each table column.
+When inserting new data, the **INSERT** statement is used; it describes which table to write (ex., INSERT INTO movies)[^6]. When adding data to a database, the row must contain values for each table column.
 
 Below are the examples provided from [SQL Lesson 13: Inserting rows](https://sqlbolt.com/lesson/inserting_rows):
 
@@ -169,7 +166,7 @@ VALUES (value_or_expr, another_value_or_expr, …),
       …;
       
 ```
-The first example above allows to insert multiple rows by "listing them sequentially[^6]", while the second example allows to insert data/rows "with only the columns of data you have by specifying them explicitly[^6]".
+The first example above allows inserting of multiple rows by "listing them sequentially[^6]". In contrast, the second example allows to insert data/rows "with only the columns of data you have by specifying them explicitly[^6]".
 
 ***Exercise 13:***
 
@@ -177,10 +174,9 @@ The first example above allows to insert multiple rows by "listing them sequenti
 
 <img width="591" alt="image" src="https://user-images.githubusercontent.com/113204667/207701192-fd565b8c-2578-43d3-bcf0-581b4cd77bd6.png">
 
-
 ### SQL Lesson 14: Updating rows
 
-Another common task in database management is updating the existing data. In updating rows, the **UPDATE** statement is used by specifying the table, columns, and rows that need update[^7]. Similar to INSERT, in UPDATe, the data "has to match the data type of the columns in the table schema", as stated in [SQL Lesson 14: Updating rows](https://sqlbolt.com/lesson/updating_rows).
+Another common task in database management is updating the existing data. In updating rows, the **UPDATE** statement specifies the table, columns, and rows that need updating [^7]. Like INSERT, in UPDATE, the data "has to match the data type of the columns in the table schema", as stated in [SQL Lesson 14: Updating rows](https://sqlbolt.com/lesson/updating_rows).
 
 UPDATE statement example below from [SQL Lesson 14: Updating rows](https://sqlbolt.com/lesson/updating_rows):
 
@@ -193,7 +189,7 @@ SET column = value_or_expr,
 WHERE condition;
 
 ```
-The **WHERE** clause is necessary as it states the condition or where to apply the update. It is a good practice to always "write the constraint first and test it in a SELECT query to make sure you are updating the right rows, and only then writing the column/value pairs to update[^7]".
+The **WHERE** clause is necessary as it states the condition or where to apply the update. It is a good practice to always "write the constraint first and test it in a SELECT query to make sure you are updating the right rows, and only then write the column/value pairs to update[^7]".
 
 ***Exercise 14:***
 
@@ -204,6 +200,20 @@ The **WHERE** clause is necessary as it states the condition or where to apply t
 <img width="591" alt="image" src="https://user-images.githubusercontent.com/113204667/207704539-514114e8-2819-45c0-858a-f23d1ca9cd63.png">
 
 
+### SQL Lesson 15: Deleting rows
+
+A **DELETE** statement is used when needed to delete rows; the delete statement goes like tis:  **DELETE FROM** *table_name* **WHERE** *condition*[^8], as shown below.
+
+An example from [SQL Lesson 15: Deleting rows](https://sqlbolt.com/lesson/deleting_rows):
+
+```
+Delete statement with condition
+DELETE FROM mytable
+WHERE condition;
+
+```
+
+Without the **WHERE** clause, all rows will be be deleted, it is why the **WHERE** clause is important to both UPDATE and DELETE statement. It is advised to always double check the DELETE statement before executing it.
 
 
 References:
@@ -214,4 +224,6 @@ References:
 [^5]: [SQL Lesson 6: Multi-table queries with JOINs](https://sqlbolt.com/lesson/select_queries_with_joins)
 [^6]: [SQL Lesson 13: Inserting rows](https://sqlbolt.com/lesson/inserting_rows)
 [^7]: [SQL Lesson 14: Updating rows](https://sqlbolt.com/lesson/updating_rows)
+[^8]: [SQL Lesson 15: Deleting rows](https://sqlbolt.com/lesson/deleting_rows)
+
 
