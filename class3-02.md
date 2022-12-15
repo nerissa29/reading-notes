@@ -55,7 +55,7 @@ The **ls** (list) states or lists the files or directories on your current locat
 
 #### ls -l
 
-The **ls -l** includes long lists, the *d* in *d*drwxr-xr-x* indicates that the file is a *directory*, if *-* then it is a normal file. The next 9 characters indicates the permissions for that file/directory. The next field indicates the number blocks, while the next one indicates the owner, and then "the group the file or directory belongs to[^2]". The *4096* is the file size, then the date and time it was modified/created, and then the filename/directory name.
+The **ls -l** includes long lists, the *d* in *drwxr-xr-x* indicates that the file is a *directory*, if *-* then it is a normal file. The next 9 characters indicates the permissions for that file/directory. The next field indicates the number blocks, while the next one indicates the owner, and then "the group the file or directory belongs to[^2]". The *4096* is the file size, then the date and time it was modified/created, and then the filename/directory name.
 
 <img width="529" alt="image" src="https://user-images.githubusercontent.com/113204667/207971621-4fbee4ad-577b-485d-8829-d3add3af5632.png">
 
@@ -79,6 +79,18 @@ An example of absolute path is:
 
 <img width="521" alt="image" src="https://user-images.githubusercontent.com/113204667/207975564-83d10209-6bcd-40db-9d41-9cd9d42888ab.png">
 
+#### Other building blocks on Paths[^2]
+
+We can use the following to refer to a location:
+
+- **~** and **cd (without arguments)** -> is a shortcut for home directory
+- **.** -> is a "reference to your current directory[^2]"
+- **..** -> is a "reference to the parent directory[^2]"
+- **cd /h + Tab** -> invokes an auto-complete of directory that starts with "h", if Tab is hit once again, it will show the next possibilities
+
+The **cd** stands for change directories
+
+<img width="567" alt="image" src="https://user-images.githubusercontent.com/113204667/207980031-61388fef-db03-4664-aeed-c5f1d4d6604d.png">
 
 
 References:
