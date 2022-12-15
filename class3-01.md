@@ -239,7 +239,7 @@ CREATE TABLE IF NOT EXISTS mytable (
 
 ```
 
-The new table's structure is defined by its **table schema**, which defines its columns, including its name, data type, and constraint if needed[^9]. The **IF NOT EXISTS** clausee is used to skip creating table if table with the same name already exists[^9]. By default, SQL will throw an error if creating a table with a name that already exists.
+The new table's structure is defined by its **table schema**, which defines its columns, including its name, data type, and constraint if needed[^9]. The **IF NOT EXISTS** clause is used to skip creating a table if the table with the same name already exists[^9]. By default, SQL will throw an error if creating a table with a name that already exists.
 
 Below is the screenshot of data types from [SQL Lesson 16: Creating tables](https://sqlbolt.com/lesson/creating_tables):
 
@@ -272,7 +272,7 @@ CREATE TABLE movies (
 
 ### SQL Lesson 17: Altering tables
 
-The **ALTER TABLE** statement allows to add, remove, update or modify the columns and table constraints in the database[^10]. Below are the syntax for altering the table (adding, removing, and renaming the table), as stated in [SQL Lesson 17: Altering tables](https://sqlbolt.com/lesson/altering_tables):
+The **ALTER TABLE** statement allows adding, removing, updating, or modifying the database's columns and table constraints [^10]. Below is the syntax for altering the table (adding, removing, and renaming the table), as stated in [SQL Lesson 17: Altering tables](https://sqlbolt.com/lesson/altering_tables):
 
 *Adding Columns*
 ```
@@ -301,6 +301,28 @@ RENAME TO new_table_name;
 
 ***Exercise 17:***
 
+<img width="589" alt="image" src="https://user-images.githubusercontent.com/113204667/207743036-01c137e6-a76d-4a2e-b100-cfa0d07934d4.png">
+
+<img width="590" alt="image" src="https://user-images.githubusercontent.com/113204667/207743267-9e852513-3b9c-485e-93c4-aed2f39636cf.png">
+
+
+### SQL Lesson 18: Dropping tables
+
+The **DROP TABLE** statement removes the table and all its data/metadata; it "removes the table schema from the database entirely[^11]". The syntax is as follows, as stated in [SQL Lesson 18: Dropping tables](https://sqlbolt.com/lesson/dropping_tables):
+
+```
+Drop table statement
+DROP TABLE IF EXISTS mytable;
+
+```
+
+The **IF EXISTS** clause is used to suppress the error if the table specified does not exist[^11].
+
+***Exercise 18:***
+
+<img width="591" alt="image" src="https://user-images.githubusercontent.com/113204667/207744139-306e9eb6-196c-4310-8db1-8b29fd4dcb95.png">
+
+<img width="588" alt="image" src="https://user-images.githubusercontent.com/113204667/207744331-41e7da8e-a54c-4d05-8ed8-f7c089be111b.png">
 
 
 
@@ -315,9 +337,6 @@ References:
 [^8]: [SQL Lesson 15: Deleting rows](https://sqlbolt.com/lesson/deleting_rows)
 [^9]: [SQL Lesson 16: Creating tables](https://sqlbolt.com/lesson/creating_tables)
 [^10]: [SQL Lesson 17: Altering tables](https://sqlbolt.com/lesson/altering_tables)
-
-
-
-
+[^11]: [SQL Lesson 18: Dropping tables](https://sqlbolt.com/lesson/dropping_tables)
 
 
