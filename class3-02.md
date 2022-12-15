@@ -39,29 +39,45 @@ A **shell** is a part of OS that shows how the terminal behaves after running/ex
 
 The commands entered are usually stored in a history, one can use the arrow keys up and down to scroll the history, instead of typing the same command again[^1].
 
-### Basic Navigation
+### Basic Navigation[^2]
 
-#### pwd[^2]
+#### pwd
 
 The **pwd** (Print Working Dierectory) lets you know the current working directory you are in.
 
 <img width="608" alt="image" src="https://user-images.githubusercontent.com/113204667/207969826-4ff08cc3-dbb3-450c-8b0d-b3ecca97f850.png">
 
-#### ls[^2]
+#### ls
 
 The **ls** (list) states or lists the files or directories on your current location.
 
 <img width="526" alt="image" src="https://user-images.githubusercontent.com/113204667/207970837-ca0c61df-3717-4a27-ad5c-02b5ff8a0f26.png">
 
-#### ls -l[^2]
+#### ls -l
 
 The **ls -l** includes long lists, the *d* in *d*drwxr-xr-x* indicates that the file is a *directory*, if *-* then it is a normal file. The next 9 characters indicates the permissions for that file/directory. The next field indicates the number blocks, while the next one indicates the owner, and then "the group the file or directory belongs to[^2]". The *4096* is the file size, then the date and time it was modified/created, and then the filename/directory name.
 
-#### ls /etc[^2]
-The command **ls /etc** lists the directories' contents (not including the directory name, but just the contents).
-
 <img width="529" alt="image" src="https://user-images.githubusercontent.com/113204667/207971621-4fbee4ad-577b-485d-8829-d3add3af5632.png">
 
+#### ls /etc
+
+The command **ls /etc** lists the directories' contents (not including the directory name, but just the contents).
+
+#### ls -l /etc
+
+The command **ls -l /etc** includes a long listing of the directories' contents.
+
+#### Paths: Absolute and Realtive
+
+The *path* lets you get to a specific directory or file[^2]. Two types of paths are **absolute** and **relative**. The **/** indicates the root directory.
+
+An example of *relative path* is:
+
+<img width="596" alt="image" src="https://user-images.githubusercontent.com/113204667/207975120-1cf5a960-d8c2-4356-a040-b125736c719a.png">
+
+An example of absolute path is:
+
+<img width="521" alt="image" src="https://user-images.githubusercontent.com/113204667/207975564-83d10209-6bcd-40db-9d41-9cd9d42888ab.png">
 
 
 
