@@ -225,7 +225,7 @@ Without the **WHERE** clause, all rows will be deleted; it is why the **WHERE** 
 
 ### SQL Lesson 16: Creating tables
 
-The **CREATE TABLE** statement is used to create new database - new entities and new relationships[^9].
+The **CREATE TABLE** statement is used to create a new database - new entities and new relationships[^9].
 
 An example below is provided from [SQL Lesson 16: Creating tables](https://sqlbolt.com/lesson/creating_tables):
 
@@ -239,7 +239,69 @@ CREATE TABLE IF NOT EXISTS mytable (
 
 ```
 
-The new table's structure is defined by its **table schema**, which defines its columns, including its name, data type, and constraint if needed[^9].
+The new table's structure is defined by its **table schema**, which defines its columns, including its name, data type, and constraint if needed[^9]. The **IF NOT EXISTS** clausee is used to skip creating table if table with the same name already exists[^9]. By default, SQL will throw an error if creating a table with a name that already exists.
+
+Below is the screenshot of data types from [SQL Lesson 16: Creating tables](https://sqlbolt.com/lesson/creating_tables):
+
+<img width="540" alt="image" src="https://user-images.githubusercontent.com/113204667/207740875-5128330c-840e-41a5-9f3e-b056d92c25d8.png">
+
+
+Below is the screenshot of table constraints from [SQL Lesson 16: Creating tables](https://sqlbolt.com/lesson/creating_tables):
+
+<img width="544" alt="image" src="https://user-images.githubusercontent.com/113204667/207740942-f33fa261-c2c4-4080-890f-e319a1eee7cf.png">
+
+
+Below is a CREATE TABLE statement example from [SQL Lesson 16: Creating tables](https://sqlbolt.com/lesson/creating_tables):
+
+```
+Movies table schema
+CREATE TABLE movies (
+    id INTEGER PRIMARY KEY,
+    title TEXT,
+    director TEXT,
+    year INTEGER, 
+    length_minutes INTEGER
+);
+
+```
+
+***Exercise 16:***
+
+<img width="589" alt="image" src="https://user-images.githubusercontent.com/113204667/207741523-a93859eb-863e-4960-916f-1a53daea0468.png">
+
+
+### SQL Lesson 17: Altering tables
+
+The **ALTER TABLE** statement allows to add, remove, update or modify the columns and table constraints in the database[^10]. Below are the syntax for altering the table (adding, removing, and renaming the table), as stated in [SQL Lesson 17: Altering tables](https://sqlbolt.com/lesson/altering_tables):
+
+*Adding Columns*
+```
+Altering table to add new column(s)
+ALTER TABLE mytable
+ADD column DataType OptionalTableConstraint 
+    DEFAULT default_value;
+    
+```
+
+*Removing Columns*
+```
+Altering table to remove column(s)
+ALTER TABLE mytable
+DROP column_to_be_deleted;
+
+```
+
+*Renaming the table*
+```
+Altering table name
+ALTER TABLE mytable
+RENAME TO new_table_name;
+
+```
+
+***Exercise 17:***
+
+
 
 
 References:
@@ -252,6 +314,9 @@ References:
 [^7]: [SQL Lesson 14: Updating rows](https://sqlbolt.com/lesson/updating_rows)
 [^8]: [SQL Lesson 15: Deleting rows](https://sqlbolt.com/lesson/deleting_rows)
 [^9]: [SQL Lesson 16: Creating tables](https://sqlbolt.com/lesson/creating_tables)
+[^10]: [SQL Lesson 17: Altering tables](https://sqlbolt.com/lesson/altering_tables)
+
+
 
 
 
