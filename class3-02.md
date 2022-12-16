@@ -2,17 +2,17 @@
 
 ### The Command Line
 
-According to [Ryans Tutorials: The Command Line!](https://ryanstutorials.net/linuxtutorial/commandline.php), a terminal/command line is a "text based interface to the system". It allows to enter commands by typing, and will give results back as text. It starts with a prompt, since I'm using Ubuntu, the prompt as I open it looks like this:
+According to [Ryans Tutorials: The Command Line!](https://ryanstutorials.net/linuxtutorial/commandline.php), a terminal/command line is a "text based interface to the system". It allows you to enter commands by typing, giving results as text. It starts with a prompt; since I'm using Ubuntu, the prompt as I open it looks like this:
 
 **issa29@DESKTOP-N7B8RN9:~$**
 
 Based on the image below, as stated in [Ryans Tutorials: The Command Line!](https://ryanstutorials.net/linuxtutorial/commandline.php):
 
-Line1 = the prompt **issa29@DESKTOP-N7B8RN9:~$**, followed by the command **ls**, and the command line **-l /home/issa29**, these three are separated by spaces. the command *ls* is used to list files, while *-l* is an *option* "used to modify the behaviour of the command[^1]".
+Line1 = the prompt **issa29@DESKTOP-N7B8RN9:~$**, followed by the command **ls**, and the command line **-l /home/issa29**; spaces separate these three. the command *ls* is used to list files, while *-l* is an *option* "used to modify the behavior of the command[^1]".
 
 Lines 2-5 = the output or the results after executing the command.
 
-Line 6 = back with the prompt again
+Line 6 = back with the prompt again.
 
 <img width="730" alt="image" src="https://user-images.githubusercontent.com/113204667/207963763-6d84b94f-4b4d-4c41-98b2-e38318cae298.png">
 
@@ -27,23 +27,23 @@ Applications > System > Terminal
 
 For Windows Users:
 (Mine is) Apps > Installed Apps > Terminal
-[Putty](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html) is another way if user wants to "remotely log into another machine then you will need an SSH client"[^1].
+[Putty](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html) is another way if user wants to "remotely log into another machine then you will need an SSH client[^1]”.
 
 #### Shell, Bash
 
-A **shell** is a part of OS that shows how the terminal behaves after running/executing the commands; **bash (Bourne agaian shell)** is one of the most common *shells* [^1]. Typing the **echo $SHELL** on the terminal displays the shell you are using, as shown in the image below:
+A **shell** is a part of OS that shows how the terminal behaves after running/executing the commands; **bash (Bourne again shell)** is one of the most common *shells* [^1]. Typing the **echo $SHELL** on the terminal displays the shell you are using, as shown in the image below:
 
 <img width="563" alt="image" src="https://user-images.githubusercontent.com/113204667/207968282-a9ec96e2-3fd7-4c42-97c3-1e10235ef04f.png">
 
 #### Shortcuts
 
-The commands entered are usually stored in a history, one can use the arrow keys up and down to scroll the history, instead of typing the same command again[^1].
+The commands entered are usually stored in history; one can use the arrow keys up and down to scroll the history instead of typing the same command again[^1].
 
 ### Basic Navigation[^2]
 
 #### pwd
 
-The **pwd** (Print Working Dierectory) lets you know the current working directory you are in.
+The **pwd** (Print Working Directory) lets you know the current working directory you are in.
 
 <img width="608" alt="image" src="https://user-images.githubusercontent.com/113204667/207969826-4ff08cc3-dbb3-450c-8b0d-b3ecca97f850.png">
 
@@ -55,19 +55,19 @@ The **ls** (list) states or lists the files or directories on your current locat
 
 #### ls -l
 
-The **ls -l** includes long lists, the *d* in *drwxr-xr-x* indicates that the file is a *directory*, if *-* then it is a normal file. The next 9 characters indicates the permissions for that file/directory. The next field indicates the number blocks, while the next one indicates the owner, and then "the group the file or directory belongs to[^2]". The *4096* is the file size, then the date and time it was modified/created, and then the filename/directory name.
+The **ls -l** includes long lists, and the *d* in *drwxr-xr-x* indicates that the file is a *directory*; if *-*, it is a normal file. The next 9 characters indicates the permissions for that file/directory. The next field indicates the number of blocks, the next one indicates the owner, and then "the group the file or directory belongs to[^2]". The *4096* is the file size, the next is the date and time it was modified/created, and then the filename/directory name.
 
 <img width="529" alt="image" src="https://user-images.githubusercontent.com/113204667/207971621-4fbee4ad-577b-485d-8829-d3add3af5632.png">
 
 #### ls /etc
 
-The command **ls /etc** lists the directories' contents (not including the directory name, but just the contents).
+The command **ls /etc** lists the directories' contents (not including the directory name, but the contents).
 
 #### ls -l /etc
 
-The command **ls -l /etc** includes a long listing of the directories' contents.
+The command **ls -l /etc** includes a long listing of the directories contents.
 
-#### Paths: Absolute and Realtive
+#### Paths: Absolute and Relative
 
 The *path* lets you get to a specific directory or file[^2]. Two types of paths are **absolute** and **relative**. The **/** indicates the root directory.
 
@@ -75,7 +75,7 @@ An example of *relative path* is:
 
 <img width="596" alt="image" src="https://user-images.githubusercontent.com/113204667/207975120-1cf5a960-d8c2-4356-a040-b125736c719a.png">
 
-An example of absolute path is:
+An example of an absolute path is:
 
 <img width="521" alt="image" src="https://user-images.githubusercontent.com/113204667/207975564-83d10209-6bcd-40db-9d41-9cd9d42888ab.png">
 
@@ -86,7 +86,7 @@ We can use the following to refer to a location:
 - **~** and **cd (without arguments)** -> is a shortcut for home directory
 - **.** -> is a "reference to your current directory[^2]"
 - **..** -> is a "reference to the parent directory[^2]"
-- **cd /h + Tab** -> invokes an auto-complete of directory that starts with "h", if Tab is hit once again, it will show the next possibilities
+- **cd /h + Tab** -> invokes an auto-complete of the directory that starts with "h". Also, if Tab is hit once again, it will show the next possibilities
 
 The **cd** stands for change directories.
 
@@ -95,15 +95,15 @@ The **cd** stands for change directories.
 
 ### More About Files[^3]
 
-With linux, **everything is a file**, including text file, directory, keyboard - the system that reads from, and monitor - the system that writes to[^3]. A file extension is usually made up of 2-4 characters. This extension states the type of file, such as:
+With Linux, **everything is a file**, including text files, directory, keyboard - the system that reads from, and monitor - the system that writes to[^3]. A file extension is usually made up of 2-4 characters. This extension states the type of file, such as:
 
 - **file.txt** as a plain text file
 - **file.exe** as executable program/file
 - **file.png, file.jpg, file.gif** as image
 
-Another important thing to remember is that, linux, is **case sensitive**. It is possible to have more than one file with same name as long as the characters/letters are of different case[^3]. For example sample.txt is different from Sample.txt, or SAMPLE.txt; these three files, although same filename, can exist due to they all differ in casing.
+Another important thing to remember is that Linux is **case sensitive**. It is possible to have more than one file with the same name as long as the characters/letters are different cases [^3]. For example, sample.txt differs from Sample.txt or SAMPLE.txt; although the same filename, these three files can exist because they all differ in the casing.
 
-**Spaces** in directory and file are ok, however, it is not advised to use space in filenames or directory names due to spaces are used to separate items in the command line. If the filename includes spaces, one must use quotes or escape characters to access it, such as[^3]:
+**Spaces** in the directory and file are ok. However, using space in filenames or directory names is not advised because spaces are used to separate items in the command line. If the filename includes spaces, one must use quotes or escape characters to access it, such as[^3]:
 
 - *cd 'Sample Text'* 
 - *cd Sample\Text*
@@ -116,7 +116,7 @@ The **hidden files and directories** are usually stored with a name starting at 
 
 ### Manual Pages[^4]
 
-Thee **manual pages** are "set of pages that explain every command available on your system including what they do", which includes thee command linee arguments that they accept and how to run them, as stated in set of pages that explain every command available on your system including what they do, as stated in [Ryans Tutorials: Manual Pages!](https://ryanstutorials.net/linuxtutorial/manual.php).
+The **manual pages** are a "set of pages that explain every command available on your system including what they do", which includes the command line arguments that they accept and how to run them, as stated in a set of pages that explain every command available on your system including what they do, as stated in [Ryans Tutorials: Manual Pages!](https://ryanstutorials.net/linuxtutorial/manual.php).
 
 To **invoke the manual pages**, the command is as follows:
 
@@ -124,7 +124,7 @@ To **invoke the manual pages**, the command is as follows:
 man <command to look up>
 ```
 
-Below is the image from [Ryans Tutorials: Manual Pages!](https://ryanstutorials.net/linuxtutorial/manual.php) nvoking the manual command (line 1) and its results:
+Below is the image from [Ryans Tutorials: Manual Pages!](https://ryanstutorials.net/linuxtutorial/manual.php) invoking the manual command (line 1) and its results:
 
 <img width="569" alt="image" src="https://user-images.githubusercontent.com/113204667/208088970-c27afbdd-bb3d-418f-9b4f-6d3379aa4de9.png">
 
@@ -151,23 +151,23 @@ To **exit man pages**:
 
 #### ls -a, ls --all, ls -alh
 
-To list all directories, including the hidden files, we can use the short hand (-) -> **ls-a**, or the long hand (--) -> **ls --all**, bth does the same thing.
+To list all directories, including the hidden files, we can use the shorthand (-) -> **ls-a** or the long hand (--) -> **ls --all**, both does the same thing.
 
 **Image 1*
 <img width="864" alt="image" src="https://user-images.githubusercontent.com/113204667/208094747-f53dbead-a545-410f-aeb8-94b4af8a8dff.png">
 
-Uing a short hand version (-) invoke many options by placing all the letters after the single dash, such as in the example below (**ls -alh**):
+Using a shorthand version (-) invoke many options by placing all the letters after the single dash, such as in the example below (**ls -alh**):
 
 **Image 2**
 <img width="864" alt="image" src="https://user-images.githubusercontent.com/113204667/208095818-fb29d58a-ad03-4ee0-a30f-732b96e9e697.png">
 
-By adding multiple option (l and h) after the command ls -a, the image 2 contains more information, compared to image 1.
+By adding multiple options (l and h) after the command ls -a, image 2 contains more information compared to image 1.
 
 ### File Manipulation[^5]
 
 #### Creating directory
 
-The command **mkdir (Make Directory)** is used to create directory, the syntax is as follows:
+The command **mkdir (Make Directory)** is used to create a directory, the syntax is as follows:
 
 ```
 mkdir [options]<Directory>
@@ -179,7 +179,7 @@ Example:
 <img width="865" alt="image" src="https://user-images.githubusercontent.com/113204667/208099384-e11b6c08-031a-499a-803f-68ef43366bd4.png">
 
 
-Important takeawy is, supplying a directory is same as supplying a path. More examples of "how we can supply a directory to be created[^5]":
+An important takeaway is, supplying a directory is the same as supplying a path. More examples of "how we can supply a directory to be created[^5]":
 
 - mkdir ~/linuxSamples/dir2
 - mkdir ../dir1
@@ -221,7 +221,7 @@ Below is an image example of touch from [Ryans Tutorials: File Manipulation!](ht
 
 #### Copying File/Directory
 
-The cpmmand **cp (stands for copy)** is used to copy or make file/directory duplicate; the syntax is as follows[^5]:
+The command **cp (stands for copy)** is used to copy or make file/directory duplicate; the syntax is as follows[^5]:
 
 ```
 cp [options]<destination>
@@ -239,7 +239,7 @@ Using relative and absolute paths on *cp*:
 
 #### Moving a File/Directory
 
-The syantax for moving a file/directory is:
+The syntax for moving a file/directory is:
 
 ```
 mv [options] <source> <destination>
@@ -260,32 +260,32 @@ The command **rm (stands for remove)**, is used to delete a file; *rm* also has 
 - pwd
   - current location in the system
 - ls
-  - lists a specific path or curret directory
+  - lists a specific path or current directory
 - cd
   - change directory
 - path
-  - describes where the file/directory is at on the system
+  - describes where the file/directory is on the system
 - absolute path
   - starts from the file system's roots (/home/issa)
 - relative path
-  - relative to your current location/psth in the system (projects/courses)
+  - relative to your current location/path in the system (projects/courses)
 - ~ (tilde)
-  - refereence to home directory, used in paths
+  - a reference to the home directory, used in paths
 - . (dot)
-  - reference to current directory, used in paths
+  - a reference to the current directory used in paths
 - ..(dot dot)
-  - reference to curent directories' parent directory, used in paths
+  - a reference to current directories' parent directory, used in paths
 - TAB completion
   - used to auto-complete the path, pressing twice will show other alternatives
 
 #### More About Files
 
 - spaces in names
-  - place names with spaces inside the quotes ("") or (''), or use backlash in front of spaces (/)
+  - place names with spaces inside the quotes ("") or (''), or use backslash in front of spaces (/)
 - file [path]
   - defines what type of item the directory/file is
-- hiddeen files and directories
-  - names that begins with a dot (.) are hidden files/directories
+- hidden files and directories
+  - names that begin with a dot (.) are hidden files/directories
 
 
 #### Manual Pages
@@ -293,13 +293,28 @@ The command **rm (stands for remove)**, is used to delete a file; *rm* also has 
 - man -k <search term>
   - search the term/item within the page of man pages
 - man <command>
-   - command to view man page
+  - command to view man page
 - q
-   - exit man pages
+  - exit man pages
 
   
 #### File Manipulation
-  
+
+- mkdir <directory name>
+  - create directory
+- rmdir <directory name>
+  - removes/deletes directory or file if empty
+- rm <path>
+  - removes file/directory
+  - has options -r and -f
+  - option -r allows removing/deleting file/directories that are not empty
+- touch <filename>
+  - creates a blank file
+- cp <source><destination>
+  - copies the source file to its destination
+mv <source><destination>
+  - moves the source to its destination
+  - can also rename file/directory
 
   
   
