@@ -253,9 +253,35 @@ The command **mv (stands for move)** is used to move directories without providi
 The command **rm (stands for remove)**, is used to delete a file; *rm* also has options that can be used, one of them is option **-r (stands for recursive)**, which allows non-empty directories to be removed or deleted[^5].
 
 
+### Cheat Sheet[^6]
+
+#### Basic Navigation
+
+- pwd
+  - current location in the system
+- ls
+  - lists a specific path or curret directory
+- cd
+  - change directory
+- path
+  - describes where the file/directory is at on the system
+- absolute path
+  - starts from the file system's roots (/home/issa)
+- relative path
+  - relative to your current location/psth in the system (projects/courses)
+- ~ (tilde)
+  - refereence to home directory, used in paths
+- . (dot)
+  - reference to current directory, used in paths
+- ..(dot dot)
+  - reference to curent directories' parent directory, used in paths
+- TAB completion
+  - used to auto-complete the path, pressing twice will show other alternatives
+
 References:
 [^1]: [Ryans Tutorials: The Command Line!](https://ryanstutorials.net/linuxtutorial/commandline.php)
 [^2]: [Ryans Tutorials: Basic Navigation](https://ryanstutorials.net/linuxtutorial/navigation.php)
 [^3]: [Ryans Tutorials: More About Files!](https://ryanstutorials.net/linuxtutorial/aboutfiles.php)
 [^4]: [Ryans Tutorials: Manual Pages!](https://ryanstutorials.net/linuxtutorial/manual.php)
 [^5]: [Ryans Tutorials: File Manipulation!](https://ryanstutorials.net/linuxtutorial/filemanipulation.php)
+[^6]: [Ryans Tutorials: Linux Tutorial - Cheat Sheet](https://ryanstutorials.net/linuxtutorial/cheatsheet.php)
