@@ -149,12 +149,27 @@ To **exit man pages**:
 'q' to quite
 ```
 
-To li
+#### ls -a, ls --all, ls -alh
 
+To list all directories, including the hidden files, we can use the short hand (-) -> **ls-a**, or the long hand (--) -> **ls --all**, bth does the same thing.
 
+**Image 1*
+<img width="864" alt="image" src="https://user-images.githubusercontent.com/113204667/208094747-f53dbead-a545-410f-aeb8-94b4af8a8dff.png">
+
+Uing a short hand version (-) invoke many options by placing all the letters after the single dash, such as in the example below (**ls -alh**):
+
+**Image 2**
+<img width="864" alt="image" src="https://user-images.githubusercontent.com/113204667/208095818-fb29d58a-ad03-4ee0-a30f-732b96e9e697.png">
+
+By adding multiple option (l and h) after the command ls -a, the image 2 contains more information, compared to image 1.
+
+### File Manipulation
+
+The command **mkdir
 
 References:
 [^1]: [Ryans Tutorials: The Command Line!](https://ryanstutorials.net/linuxtutorial/commandline.php)
 [^2]: [Ryans Tutorials: Basic Navigation](https://ryanstutorials.net/linuxtutorial/navigation.php)
 [^3]: [Ryans Tutorials: More About Files!](https://ryanstutorials.net/linuxtutorial/aboutfiles.php)
 [^4]: [Ryans Tutorials: Manual Pages!](https://ryanstutorials.net/linuxtutorial/manual.php)
+[^5]: [Ryans Tutorials: File Manipulation!](https://ryanstutorials.net/linuxtutorial/filemanipulation.php)
