@@ -278,6 +278,25 @@ The command **rm (stands for remove)**, is used to delete a file; *rm* also has 
 - TAB completion
   - used to auto-complete the path, pressing twice will show other alternatives
 
+#### More About Files
+
+- spaces in names
+  - place names with spaces inside the quotes ("") or (''), or use backlash in front of spaces (/)
+- file [path]
+  - defines what type of item the directory/file is
+- hiddeen files and directories
+  - names that begins with a dot (.) are hidden files/directories
+
+
+#### Manual Pages
+
+- man -k <search term>
+  - search the term/item within the page of man pages
+ - man <command>
+   - command to view man page
+  
+####
+
 References:
 [^1]: [Ryans Tutorials: The Command Line!](https://ryanstutorials.net/linuxtutorial/commandline.php)
 [^2]: [Ryans Tutorials: Basic Navigation](https://ryanstutorials.net/linuxtutorial/navigation.php)
