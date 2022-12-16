@@ -292,10 +292,17 @@ The command **rm (stands for remove)**, is used to delete a file; *rm* also has 
 
 - man -k <search term>
   - search the term/item within the page of man pages
- - man <command>
+- man <command>
    - command to view man page
+- q
+   - exit man pages
+
   
-####
+#### File Manipulation
+  
+
+  
+  
 
 References:
 [^1]: [Ryans Tutorials: The Command Line!](https://ryanstutorials.net/linuxtutorial/commandline.php)
