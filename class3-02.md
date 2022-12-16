@@ -165,6 +165,8 @@ By adding multiple option (l and h) after the command ls -a, the image 2 contain
 
 ### File Manipulation[^5]
 
+#### Creating directory
+
 The command **mkdir (Make Directory)** is used to create directory, the syntax is as follows:
 
 ```
@@ -188,6 +190,67 @@ Important takeawy is, supplying a directory is same as supplying a path. More ex
 
 - **-p** "tells mkdir to make parent directories as needed[^5]"
 - **-v** tells us what mkdir is doing
+
+This image is an example of **-p** from [Ryans Tutorials: File Manipulation!](https://ryanstutorials.net/linuxtutorial/filemanipulation.php):
+
+<img width="539" alt="image" src="https://user-images.githubusercontent.com/113204667/208133944-1c5d03f6-2982-4e2c-942f-5695acb16704.png">
+
+This second image is an example of **-v** from [Ryans Tutorials: File Manipulation!](https://ryanstutorials.net/linuxtutorial/filemanipulation.php):
+
+<img width="545" alt="image" src="https://user-images.githubusercontent.com/113204667/208134086-bc74278b-d334-4560-836b-33e55b27f558.png">
+
+
+#### Removing directory
+
+The command **rmdir** is used to remove a directory; however, "there is no undo when it comes to the command line on Linux[^5]". The syntax is as follows:
+
+```
+rmdir [options]<Directory>
+
+```
+
+
+#### Creating Blank File
+
+The command **touch** is used to create blank files; it can also be used to modify the modification times and access on the file, which can be detected[^5].
+
+Below is an image example of touch from [Ryans Tutorials: File Manipulation!](https://ryanstutorials.net/linuxtutorial/filemanipulation.php):
+
+<img width="545" alt="image" src="https://user-images.githubusercontent.com/113204667/208138285-d134e658-d159-4527-85df-8d307adfb323.png">
+
+
+#### Copying File/Directory
+
+The cpmmand **cp (stands for copy)** is used to copy or make file/directory duplicate; the syntax is as follows[^5]:
+
+```
+cp [options]<destination>
+
+Example:
+cp python-fun more-python
+
+```
+
+Using relative and absolute paths on *cp*:
+
+- cp /home/issa/python-fun/py1 py2
+- cp sample1 ../projects/sample2
+
+
+#### Moving a File/Directory
+
+The syantax for moving a file/directory is:
+
+```
+mv [options] <source> <destination>
+
+```
+
+The command **mv (stands for move)** is used to move directories without providing the **-r** option[^5].
+
+#### Removing File, Empty and Non-empty Directories
+
+The command **rm (stands for remove)**, is used to delete a file; *rm* also has options that can be used, one of them is option **-r (stands for recursive)**, which allows non-empty directories to be removed or deleted[^5].
 
 
 References:
