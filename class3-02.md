@@ -114,10 +114,12 @@ cd Holiday Photos
 The **hidden files and directories** are usually stored with a name starting at **"."** (full stop). Such configuration files are hidden to not "get in the way of the user doing their everyday tasks[^3]".
 
 
+### Manual Pages[^4]
 
 
 
 References:
 [^1]: [Ryans Tutorials: The Command Line!](https://ryanstutorials.net/linuxtutorial/commandline.php)
 [^2]: [Ryans Tutorials: Basic Navigation](https://ryanstutorials.net/linuxtutorial/navigation.php)
-[^3]: [[Ryans Tutorials: More About Files!](https://ryanstutorials.net/linuxtutorial/aboutfiles.php)
+[^3]: [Ryans Tutorials: More About Files!](https://ryanstutorials.net/linuxtutorial/aboutfiles.php)
+[^4]: [Ryans Tutorials: Manual Pages!](https://ryanstutorials.net/linuxtutorial/manual.php)
