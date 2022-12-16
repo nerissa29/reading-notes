@@ -163,9 +163,32 @@ Uing a short hand version (-) invoke many options by placing all the letters aft
 
 By adding multiple option (l and h) after the command ls -a, the image 2 contains more information, compared to image 1.
 
-### File Manipulation
+### File Manipulation[^5]
 
-The command **mkdir
+The command **mkdir (Make Directory)** is used to create directory, the syntax is as follows:
+
+```
+mkdir [options]<Directory>
+
+```
+
+Example:
+
+<img width="865" alt="image" src="https://user-images.githubusercontent.com/113204667/208099384-e11b6c08-031a-499a-803f-68ef43366bd4.png">
+
+
+Important takeawy is, supplying a directory is same as supplying a path. More examples of "how we can supply a directory to be created[^5]":
+
+- mkdir ~/linuxSamples/dir2
+- mkdir ../dir1
+- mkdir ./tadaa
+- mkdir /home/issa/bloom
+
+#### Options available for mkdir
+
+- **-p** "tells mkdir to make parent directories as needed[^5]"
+- **-v** tells us what mkdir is doing
+
 
 References:
 [^1]: [Ryans Tutorials: The Command Line!](https://ryanstutorials.net/linuxtutorial/commandline.php)
