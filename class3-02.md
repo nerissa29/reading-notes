@@ -88,11 +88,36 @@ We can use the following to refer to a location:
 - **..** -> is a "reference to the parent directory[^2]"
 - **cd /h + Tab** -> invokes an auto-complete of directory that starts with "h", if Tab is hit once again, it will show the next possibilities
 
-The **cd** stands for change directories
+The **cd** stands for change directories.
 
 <img width="567" alt="image" src="https://user-images.githubusercontent.com/113204667/207980031-61388fef-db03-4664-aeed-c5f1d4d6604d.png">
+
+
+### More About Files[^3]
+
+With linux, **everything is a file**, including text file, directory, keyboard - the system that reads from, and monitor - the system that writes to[^3]. A file extension is usually made up of 2-4 characters. This extension states the type of file, such as:
+
+- **file.txt** as a plain text file
+- **file.exe** as executable program/file
+- **file.png, file.jpg, file.gif** as image
+
+Another important thing to remember is that, linux, is **case sensitive**. It is possible to have more than one file with same name as long as the characters/letters are of different case[^3]. For example sample.txt is different from Sample.txt, or SAMPLE.txt; these three files, although same filename, can exist due to they all differ in casing.
+
+**Spaces** in directory and file are ok, however, it is not advised to use space in filenames or directory names due to spaces are used to separate items in the command line. If the filename includes spaces, one must use quotes or escape characters to access it, such as[^3]:
+
+- *cd 'Sample Text'* 
+- *cd Sample\Text*
+
+Below will not work:
+cd Holiday Photos
+
+The **hidden files and directories** are usually stored with a name starting at **"."** (full stop). Such configuration files are hidden to not "get in the way of the user doing their everyday tasks[^3]".
+
+
+
 
 
 References:
 [^1]: [Ryans Tutorials: The Command Line!](https://ryanstutorials.net/linuxtutorial/commandline.php)
 [^2]: [Ryans Tutorials: Basic Navigation](https://ryanstutorials.net/linuxtutorial/navigation.php)
+[^3]: [[Ryans Tutorials: More About Files!](https://ryanstutorials.net/linuxtutorial/aboutfiles.php)
