@@ -116,6 +116,41 @@ The **hidden files and directories** are usually stored with a name starting at 
 
 ### Manual Pages[^4]
 
+Thee **manual pages** are "set of pages that explain every command available on your system including what they do", which includes thee command linee arguments that they accept and how to run them, as stated in set of pages that explain every command available on your system including what they do, as stated in [Ryans Tutorials: Manual Pages!](https://ryanstutorials.net/linuxtutorial/manual.php).
+
+To **invoke the manual pages**, the command is as follows:
+
+```
+man <command to look up>
+```
+
+Below is the image from [Ryans Tutorials: Manual Pages!](https://ryanstutorials.net/linuxtutorial/manual.php) nvoking the manual command (line 1) and its results:
+
+<img width="569" alt="image" src="https://user-images.githubusercontent.com/113204667/208088970-c27afbdd-bb3d-418f-9b4f-6d3379aa4de9.png">
+
+To do a **keyword search** on manual pages:
+
+```
+man -k <search term>
+```
+
+To **search within a page**:
+
+```
+'/' + <the term you want to look up>, + enter
+
+press 'n' to cycle through the result if they appear multiple times
+
+```
+
+To **exit man pages**:
+
+```
+'q' to quite
+```
+
+To li
+
 
 
 References:
