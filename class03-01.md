@@ -85,7 +85,7 @@ Below is the Fibonacci function example, provided by Bell (n.d.):
 
 ### Names and Values in Python
 
-Below are some facts regarding names and values in Python, according to Batchelder (2015):
+#### Facts regarding names and values in Python, according to Batchelder (2015):
 
 - "Names refer to values"
 - "Many names can refer to one value"
@@ -114,17 +114,14 @@ Below are some facts regarding names and values in Python, according to Batcheld
 - Any name can refer to value at any time
 - Names have no type but have a scope, values have no scope but have a type
 
-Myths on Python according to Batchelder (2015):
+#### Myths on Python according to Batchelder (2015):
 
 - "Python has no variables"
 - "Call-by-value or call-by-reference?"
 - "Making a 2D list"
 
 
-
-
-
-Reference:
+References:
 
 Batchelder, N. [PyCon 2015]. (2015). Ned Batchelder - Facts and myths about Python names and values - PyCon 2015. [Video]. YouTube. https://www.youtube.com/watch?v=_AEJHKGk9ns
 
