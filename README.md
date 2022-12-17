@@ -45,8 +45,10 @@ Hi Everyone, my name is ***Nerissa Leynes***; I am **nervous _and_ excited** at 
 ## Code 401 - Advanced Software Development
 
 ### **Table of Contents: Code 401**
-- [Reading Notes 1: SQL and Relational Database](class3-01.md)
-- [Reading Notes 2: Command Bash Line](class3-02.md)
+- [Reading Notes: SQL and Relational Database](class3-01.md)
+- [Reading Notes: Command Bash Line](class3-02.md)
+- [Reading Notes 1: Intro to Big O Notation](class03-01.md)
+- [Reading Notes 2](.md)
 - [Reading Notes 3](.md)
 - [Reading Notes 4](.md)
 - [Reading Notes 5](.md)
