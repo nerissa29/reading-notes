@@ -15,10 +15,10 @@ The **O(1)** is an algorithm that "always execute in the same time (or space) re
 Below is an example provided by Bell (n.d.):
 
 ```
-bool IsFirstElementNull(IList<String> elements)
+"bool IsFirstElementNull(IList<String> elements)
 {
     return elements[0] == null;
-}
+}"
 
 ```
 
@@ -30,32 +30,63 @@ The **O(N)** is where the algorithm linearly grows and is "proportion to the siz
 Below is an O(N) example provided by Bell (n.d.):
 
 ```
-bool ContainsValue(IEnumerable<string> elements, string value)
+"bool ContainsValue(IEnumerable<string> elements, string value)
 {
     foreach (var element in elements)
     {
         if (element == value) return true; 
     }     
     return false; 
-}
+}"
 
 ```
 
-#### O(N^2)
+#### O(N2)
 
-The O(N^2)
+The **O(N2)** describes an algorithm that runs correspondingly to the square size of the input (Bell, n.d.). This algorithm takes more time and memory to run, depending on the number of inputs or data sets (Joshi, 2017).
 
+An example of O(N2), provided by Bell (n.d.):
+
+```
+"bool ContainsDuplicates(IList<string> elements)
+{
+    for (var outer = 0; outer < elements.Count; outer++) 
+    {
+        for (var inner = 0; inner < elements.Count; inner++) 
+        { 
+            // Don't compare with self 
+            if (outer == inner) continue;             
+            
+            if (elements[outer] == elements[inner]) return true; 
+        }
+    }    
+    return false;
+}"
+
+```
+
+#### O(2^N)
+
+According to Bell (n.d.), the **O(2^N)** describes an algorithm that doubles its growth "with each addition to the input data set". One good example are recursive functions, such as the Fibonacci sequence/function.
+
+
+Below is the Fibonacci function example, provided by Bell (n.d.):
+
+```
+"int Fibonacci(int number)
+{
+    if (number <= 1) return number;
+       
+    return Fibonacci(number - 2) + Fibonacci(number - 1); 
+}"
+
+```
 
 Reference:
 
 Bell, R. (n.d.). A beginner's guide to Big O Notation. Rob Bell. https://robbell.io/2009/06/a-beginners-guide-to-big-o-notation
 
 Joshi, V. (2017, January 23). What’s a linked list, anyway? [part 2]. Medium. https://medium.com/basecs/whats-a-linked-list-anyway-part-2-131d96f71996
-
-
-
-
-
 
 
 
