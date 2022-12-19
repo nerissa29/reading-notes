@@ -31,6 +31,11 @@ Once all these three are ready, the tests can now be executed using **pytest** (
 
 The cycle' three steps (Gomes, 2017)
 
+- write a ubit test, it should fail because the feature is not there yet
+- write the feature, this will make the test pass
+- refactor the code
+
+
 
 
 
