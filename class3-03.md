@@ -13,7 +13,12 @@ Improving hard technical skills can and provide you with new opportunities expan
 
 The [The Matasano Crypto Challenges](https://web.archive.org/web/20160620111206/http://cryptopals.com/) and [Rosalind](https://web.archive.org/web/20160607102654/http://rosalind.info/about/) are both great examples of exercises designed to help and improve one's technical skills or specialty (Happy Bear Software, n.d.).
 
+As Dweck () once mentioned, she describes the growth mindset as someone who understand that abilities can be developed. As for Duckworth (n.d.), she describes growth mindset as "a great idea for building grit", an idea developed by Dweck that "the ability to learn is not fixed" and that "it can change with your effort" Duckworth (n.d.).
 
 References:
 
+Duckworth, A. (n.d.). *Grit: The power of passion and perseverance* [Video]. Ted Conferences. https://www.ted.com/talks/angela_lee_duckworth_grit_the_power_of_passion_and_perseverance
+
+Dweck, C. (n.d.). *The power of believing that you can improve* [Video]. Ted Conferences. https://www.ted.com/talks/carol_dweck_the_power_of_believing_that_you_can_improve?language=en
+ 
 Happy Bear Software. (n.d.). *Upgrade your technical skills with deliberate practice.* https://web.archive.org/web/20160616225417/http://www.happybearsoftware.com/upgrade-your-technical-skills-with-deliberate-practice
