@@ -54,27 +54,23 @@ The __name == "__main__" will execute the code when the file runs as a script an
 However, if the file is imported from a different or another module, then the __name__ will be set to that module's name (Shah, (n.d.)). In her article, Shah (n.d.) describes 
 
 
+### Introduction to Recursion – Data Structure and Algorithm Tutorials
 
+A function that calls itself is called **recursion**, while the "corresponding function is called a **recursive function**" (Geeks for Geeks, 2022). It reduces the length of the code, making it easier.
 
+## Things I want to know more about
 
-
-
-
+I want to learn more about recursion, knowing when to use it, and when it's not applicable. Recursion is a potent tool.
 
 
 References:
+
+Geeks for Geeks. (2022, September 19). *Introduction to recursion – Data structure and algorithm tutorials*. https://www.geeksforgeeks.org/introduction-to-recursion-data-structure-and-algorithm-tutorials/
 
 Gomes, A. (2017, September 14). *In tests we trust — TDD with Python*. Code Like A Girl. https://code.likeagirl.io/in-tests-we-trust-tdd-with-python-af69f47e6932
 
 Shah, N. (n.d.). *What does the if __name__ == “__main__”: do?*. Geeks for Geeks. https://www.geeksforgeeks.org/what-does-the-if-__name__-__main__-do/
 
 
-
-
-.................
-
-Freitas, N. (2015, January 6). *People around the world are voluntarily submitting to China’s Great Firewall. Why?* Slate. http://www.slate.com/blogs/future_tense/2015/01/06/
-tencent_s_wechat_worldwide_internet_users_
-are_voluntarily_submitting_to.html
 
 
