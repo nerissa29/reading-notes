@@ -51,7 +51,7 @@ Hi Everyone, my name is ***Nerissa Leynes***; I am **nervous _and_ excited** at 
 - [Reading Notes: Data Structures and Algorithms](class3-04.md)
 - [Reading Notes: Engineering Readings](class3-05.md)
 - [Reading Notes 1: Intro to Big O Notation](class03-01.md)
-- [Reading Notes 2](.md)
+- [Reading Notes 2: Testing and Modules](class03-02.md)
 - [Reading Notes 3](.md)
 - [Reading Notes 4](.md)
 - [Reading Notes 5](.md)
