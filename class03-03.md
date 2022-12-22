@@ -22,6 +22,31 @@ The file path is required to access the file:
 - File name - the name of the file
 - Extension - "the end of the file path pre-pended with a period (.) used to indicate the file type" (Mertz, n.d.).
 
+**Opening and closing a file in Python**
+
+To open a file:
+
+```
+open("sample.text") or
+file = open("sample.text")
+
+```
+
+To close the file:
+
+```
+An example provided by Mertz (n.d.) in his article:
+
+reader = open('dog_breeds.txt')
+try:
+    # Further file processing goes here
+finally:
+    reader.close()
+    
+
+```
+
+
 References:
 
 Mertz, J. (n.d.). *Reading and writing files in python (Guide)*. Real Python. https://realpython.com/read-write-files-python/
