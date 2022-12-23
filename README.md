@@ -53,7 +53,7 @@ Hi Everyone, my name is ***Nerissa Leynes***; I am **nervous _and_ excited** at 
 - [Reading Notes 1: Intro to Big O Notation](class03-01.md)
 - [Reading Notes 2: Testing and Modules](class03-02.md)
 - [Reading Notes 3: FileIO & Exceptions](class03-03.md)
-- [Reading Notes 4](.md)
+- [Reading Notes 4: Classes and Objects](class03-04.md)
 - [Reading Notes 5](.md)
 - [Reading Notes 7](.md)
 - [Reading Notes 8](.md)
