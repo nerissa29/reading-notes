@@ -23,7 +23,38 @@
 
 **Traversal**
 
-The *foreach* or *for loop* is not available when traversing.  The property *Next* shows us where the next node is. The *Next* value on each node helps us determine the next reference (or where the next reference is pointing). Tge *while loop* can be used when traversing; *while loop* can be used to check if the *Next* node is not null. The error *NullReferenceException* is shown when traversing into a *null* node; this will crash the program.
+The *foreach* or *for loop* is not available when traversing.  The property *Next* shows us where the next node is. The *Next* value on each node helps us determine the next reference (or where the next reference is pointing). Tge *while loop* can be used when traversing; *while loop* can be used to check if the *Next* node is not null. The error *NullReferenceException* is shown when traversing into a *null* node; this will cause the program to crash.
+
+The *Current* tells where we at exactly on the linked list and allows us "to move/traverse forward until we hit the end" (Code Fellows, n.d.). Below is a code example from Code Fellows. (n.d.):
+
+
+```
+"ALGORITHM Includes (value)
+// INPUT <-- integer value
+// OUTPUT <-- boolean
+
+  Current <-- Head
+
+  WHILE Current is not NULL
+    IF Current.Value is equal to value
+      return TRUE
+
+    Current <-- Current.Next
+
+  return FALSE"
+
+```
+
+**Traversal Big O**
+
+- *for time*
+  - it will be O(n)
+  - for the node we are looking for could be the last node
+
+- *for space*
+  - it will be O(1)
+  - when no additional space is required asid form what is already given
+
 
 
 
